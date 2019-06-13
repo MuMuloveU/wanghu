@@ -5,3 +5,4 @@
 
 附加数据库中 
 QPGameUserDB.mdf 被7z压缩，请解压后使用
+如果本项目对你有用，请给个star~

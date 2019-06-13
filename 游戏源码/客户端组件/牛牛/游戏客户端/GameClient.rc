@@ -1,0 +1,204 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 6,6,1,0
+PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "有限公司"
+            VALUE "CompanyName", "有限公司"
+            VALUE "FileDescription", "牛牛游戏客户端"
+VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "Ox.exe"
+            VALUE "LegalCopyright", "有限公司保留所有权利。"
+            VALUE "OriginalFilename", "Ox.exe"
+            VALUE "ProductName", "牛牛游戏客户端"
+VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_TITLE               BITMAP                  "res\\TITLE.bmp"
+IDB_SCORE_VIEW          BITMAP                  "res\\SCORE_VIEW.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_START               BITMAP                  "res\\START.bmp"
+IDB_CARD                BITMAP                  "res\\CARD.bmp"
+IDB_BANKER_FLAG         BITMAP                  "res\\BANKER_FLAG.bmp"
+IDB_MONEY               BITMAP                  "res\\MONEY.bmp"
+IDB_RESOCT              BITMAP                  "res\\RESOCT.bmp"
+IDB_OPENCARD            BITMAP                  "res\\OPENCARD.bmp"
+IDB_IDLER               BITMAP                  "res\\IDLER.bmp"
+IDB_COW                 BITMAP                  "res\\COW.bmp"
+IDB_BANKER              BITMAP                  "res\\BANKER.bmp"
+IDB__MONEY              BITMAP                  "res\\_MONEY.bmp"
+IDB_CALL_BANKER         BITMAP                  "res\\CALLBANKER.bmp"
+IDB_DOUBLE_COW          BITMAP                  "res\\DOUBLE_COW.bmp"
+IDB_COW_VALUE           BITMAP                  "res\\COW_VALUE.bmp"
+IDB_SCORE               BITMAP                  "res\\SCORE.bmp"
+IDB_NUMBER              BITMAP                  "res\\NUMBER.bmp"
+IDB_COW_VALUE_ZERO      BITMAP                  "res\\COW_VALUE_ZERO.bmp"
+IDB_ShortCut            BITMAP                  "res\\ShortCut.bmp"
+IDB_WIN_LOSE            BITMAP                  "res\\WIN_LOSE.bmp"
+IDB_HINT_OX             BITMAP                  "res\\HINT_OX.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+GAME_WIN                WAVE                    "res\\GAME_WIN.WAV"
+GAME_WARN               WAVE                    "res\\GAME_WARN.WAV"
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_LOST               WAVE                    "res\\GAME_LOST.WAV"
+GAME_END                WAVE                    "res\\GAME_END.WAV"
+ADD_SCORE               WAVE                    "res\\ADD_SCORE.WAV"
+SEND_CARD               WAVE                    "res\\SEND_CARD.wav"
+GAME_OXOX               WAVE                    "res\\GAME_OXOX.wav"
+OPEN_CARD               WAVE                    "res\\OPEN_CARD.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 175, 107
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "允许用户旁观",IDC_ALLOW_LOOKON,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,55,64,10
+    GROUPBOX        "常规配置：",IDC_STATIC,8,26,160,48
+    ICON            IDR_MAINFRAME,IDC_STATIC,117,41,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,41,64,10
+    PUSHBUTTON      "取消",IDCANCEL,100,81,47,14
+    DEFPUSHBUTTON   "确定",IDOK,27,81,47,14
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

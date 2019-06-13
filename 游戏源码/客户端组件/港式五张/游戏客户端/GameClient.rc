@@ -1,0 +1,217 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,5,1,0
+ PRODUCTVERSION 6,5,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "杭州捷钺网络科技有限公司"
+            VALUE "CompanyName", "杭州捷钺网络科技有限公司"
+            VALUE "FileDescription", "港式五张游戏客户端"
+            VALUE "FileVersion", "6, 5, 1, 0"
+            VALUE "InternalName", "HKFiveCard.exe"
+            VALUE "LegalCopyright", "杭州捷钺网络科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "HKFiveCard.exe"
+            VALUE "ProductName", "港式五张游戏客户端"
+            VALUE "ProductVersion", "6, 5, 1, 0"
+            VALUE "SpecialBuild", "杭州下沙网至尊宝游戏中心"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_CARD                BITMAP                  "res\\CARD.bmp"
+IDB_SCORE_VIEW          BITMAP                  "res\\SCORE_VIEW.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_WIN_LOSE            BITMAP                  "res\\WIN_LOSE.bmp"
+IDB_BT_START            BITMAP                  "res\\BT_START.bmp"
+IDB_BT_JIAZHU           BITMAP                  "res\\BT_JIAZHU.bmp"
+IDB_BT_FOLLOW           BITMAP                  "res\\BT_FOLLOW.bmp"
+IDB_BT_SOHA             BITMAP                  "res\\BT_SOHA.bmp"
+IDB_BT_FANGQI           BITMAP                  "res\\BT_FANGQI.bmp"
+IDB_BT_BUJIA            BITMAP                  "res\\BT_BUJIA.bmp"
+IDB_ADD_INFO            BITMAP                  "res\\ADD_INFO.bmp"
+IDB_BT_CANCEL           BITMAP                  "res\\BT_CANCEL.bmp"
+IDB_BT_TIMES1           BITMAP                  "res\\BT_TIMES1.bmp"
+IDB_BT_TIMES2           BITMAP                  "res\\BT_TIMES2.bmp"
+IDB_BT_TIMES3           BITMAP                  "res\\BT_TIMES3.bmp"
+IDB_BT_TIMES4           BITMAP                  "res\\BT_TIMES4.bmp"
+IDB_GOLD_NUMBER         BITMAP                  "res\\GOLD_NUMBER.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+SHOW_HAND               WAVE                    "res\\SHOW_HAND.wav"
+NO_ADD                  WAVE                    "res\\NO_ADD.wav"
+GIVE_UP                 WAVE                    "res\\GIVE_UP.WAV"
+GAME_WIN                WAVE                    "res\\GAME_WIN.WAV"
+GAME_WARN               WAVE                    "res\\GAME_WARN.WAV"
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_LOST               WAVE                    "res\\GAME_LOST.WAV"
+GAME_END                WAVE                    "res\\GAME_END.WAV"
+ADD_SCORE               WAVE                    "res\\ADD_SCORE.WAV"
+START_WARN              WAVE                    "res\\START_WARN.wav"
+FOLLOW                  WAVE                    "res\\FOLLOW.wav"
+SEND_CARD               WAVE                    "res\\SEND_CARD.wav"
+CHOOSE_SCORE            WAVE                    "res\\CHOOSE_SCORE.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 175, 136
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,41,64,10
+    CONTROL         "允许用户旁观",IDC_ALLOW_LOOKON,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,55,64,10
+    COMBOBOX        IDC_CARD_SPACE,63,90,31,181,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "确定",IDOK,27,115,47,14
+    PUSHBUTTON      "取消",IDCANCEL,100,115,47,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,117,41,21,21
+    LTEXT           "扑克间距为",IDC_STATIC,18,92,41,8
+    LTEXT           "象素",IDC_STATIC,100,92,17,8
+    GROUPBOX        "常规配置：",IDC_STATIC,8,26,160,48
+    GROUPBOX        "扑克配置：",IDC_STATIC,8,77,160,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+JETTON_VIEW             PNG                     "res\\JETTON_VIEW.png"
+NUMBER                  PNG                     "res\\NUMBER.PNG"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

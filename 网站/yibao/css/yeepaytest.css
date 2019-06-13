@@ -1,0 +1,43 @@
+﻿/* css document */
+
+/* body */
+body {
+	font-size:10pt;
+	margin-left:15px;
+	color:#666666;
+	font-weight:600;
+}
+
+input {
+	border:1px solid #c0c0c0;
+}
+.radio {
+	border-width:0px;
+}
+}
+/* a */
+a {
+	text-decoration:none;
+}
+a:link {
+	margin:auto;
+	color:#c0c0c0;
+}
+
+a:hover {
+	margin:auto;
+	color:#993399;
+	text-decoration:underline;
+}
+
+a:active {
+	margin:auto;
+	color:#c0c0c0;
+	
+}
+
+a:visited {
+	margin:auto;
+	color:#cccccc;
+}
+

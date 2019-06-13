@@ -1,0 +1,10 @@
+<%
+  Session("UserID")=""
+  Session("GameID")=""
+  Session("UserName")=""
+  Session("PassWord")=""
+  Session("Vip")=""
+  Session("IsBox")=""
+  session.Abandon()
+  response.Redirect("../index.asp")
+%>

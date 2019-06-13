@@ -1,0 +1,231 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""Res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "Res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "挖坑游戏客户端"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "Trench.exe"
+            VALUE "OriginalFilename", "SX_Trench.exe"
+            VALUE "ProductName", "挖坑游戏客户端"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "Res\\GAME_LOGO.bmp"
+IDB_CARD                BITMAP                  "Res\\CARD.bmp"
+IDB_VIEW_BACK           BITMAP                  "Res\\VIEW_BACK.bmp"
+IDB_SCORE               BITMAP                  "Res\\SCORE.bmp"
+IDB_CAVERN              BITMAP                  "Res\\CAVERN.bmp"
+IDB_GAME_END            BITMAP                  "Res\\GAME_END.bmp"
+IDB_BACK_GROUND         BITMAP                  "res\\BACK_GROUND.bmp"
+IDB_START               BITMAP                  "res\\START.bmp"
+IDB_ONE_SCORE           BITMAP                  "res\\ONE_SCORE.bmp"
+IDB_TWO_SCORE           BITMAP                  "res\\TWO_SCORE.bmp"
+IDB_THREE_SCORE         BITMAP                  "res\\THREE_SCORE.bmp"
+IDB_GIVE_UP             BITMAP                  "res\\GIVE_UP.bmp"
+IDB_PASS                BITMAP                  "res\\PASS.bmp"
+IDB_OUT_CARD            BITMAP                  "res\\OUT_CARD.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "Res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "Res\\OUT_CARD.WAV"
+GAME_WARN               WAVE                    "Res\\GAME_WARN.WAV"
+MOST_CARD               WAVE                    "Res\\MOST_CARD.WAV"
+GAME_FLEE               WAVE                    "Res\\GAME_FLEE.WAV"
+GAME_START_MANDARIN     WAVE                    "Res\\GAME_START_MANDARIN.WAV"
+CAVERN_ONE_MANDARIN     WAVE                    "Res\\CAVERN_ONE_MANDARIN.WAV"
+CAVERN_TWO_MANDARIN     WAVE                    "Res\\CAVERN_TWO_MANDARIN.WAV"
+CAVERN_THREE_MANDARIN   WAVE                    "Res\\CAVERN_THREE_MANDARIN.WAV"
+CAVERN_PASS_MANDARIN    WAVE                    "Res\\CAVERN_PASS_MANDARIN.WAV"
+CAVERN_WIN_MANDARIN     WAVE                    "Res\\CAVERN_WIN_MANDARIN.WAV"
+CAVERN_LOST_MANDARIN    WAVE                    "Res\\CAVERN_LOST_MANDARIN.WAV"
+UNITE_WIN_MANDARIN      WAVE                    "Res\\UNITE_WIN_MANDARIN.WAV"
+UNITE_LOST_MANDARIN     WAVE                    "Res\\UNITE_LOST_MANDARIN.WAV"
+GAME_START_NORMAL       WAVE                    "Res\\GAME_START_NORMAL.WAV"
+CAVERN_ONE_NORMAL       WAVE                    "Res\\CAVERN_ONE_NORMAL.WAV"
+CAVERN_TWO_NORMAL       WAVE                    "Res\\CAVERN_TWO_NORMAL.WAV"
+CAVERN_THREE_NORMAL     WAVE                    "Res\\CAVERN_THREE_NORMAL.WAV"
+CAVERN_PASS_NORMAL      WAVE                    "Res\\CAVERN_PASS_NORMAL.WAV"
+CAVERN_WIN_NORMAL       WAVE                    "Res\\CAVERN_WIN_NORMAL.WAV"
+CAVERN_LOST_NORMAL      WAVE                    "Res\\CAVERN_LOST_NORMAL.WAV"
+UNITE_WIN_NORMAL        WAVE                    "Res\\UNITE_WIN_NORMAL.WAV"
+UNITE_LOST_NORMAL       WAVE                    "Res\\UNITE_LOST_NORMAL.WAV"
+GAME_START_SHANXI       WAVE                    "Res\\GAME_START_SHANXI.WAV"
+CAVERN_ONE_SHANXI       WAVE                    "Res\\CAVERN_ONE_SHANXI.WAV"
+CAVERN_TWO_SHANXI       WAVE                    "Res\\CAVERN_TWO_SHANXI.WAV"
+CAVERN_THREE_SHANXI     WAVE                    "Res\\CAVERN_THREE_SHANXI.WAV"
+CAVERN_PASS_SHANXI      WAVE                    "Res\\CAVERN_PASS_SHANXI.WAV"
+CAVERN_WIN_SHANXI       WAVE                    "Res\\CAVERN_WIN_SHANXI.WAV"
+CAVERN_LOST_SHANXI      WAVE                    "Res\\CAVERN_LOST_SHANXI.WAV"
+UNITE_WIN_SHANXI        WAVE                    "Res\\UNITE_WIN_SHANXI.WAV"
+UNITE_LOST_SHANXI       WAVE                    "Res\\UNITE_LOST_SHANXI.WAV"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 182, 169
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "顺时针顺序出牌",IDC_DEASIL_ORDER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,38,72,10
+    COMBOBOX        IDC_CARD_SPACE,70,53,31,181,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    CONTROL         "禁止播放声音",IDC_NO_SOUND,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,24,88,64,10
+    CONTROL         "传统游戏声效",IDC_NORMAL_SOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,24,101,64,10
+    CONTROL         "普通话音效",IDC_MANDARIN_SOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,24,114,56,10
+    CONTROL         "陕西话音效",IDC_SHANXI_SOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,24,127,56,10
+    DEFPUSHBUTTON   "确定",IDOK,9,148,45,14
+    PUSHBUTTON      "取消",IDCANCEL,68,148,45,14
+    PUSHBUTTON      "默认参数",IDC_DEFAULT,127,148,45,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,120,99,20,20
+    GROUPBOX        "音效设置：",IDC_STATIC,9,75,163,67
+    GROUPBOX        "常规设置：",IDC_STATIC,9,25,163,47
+    LTEXT           "扑克间距为",IDC_STATIC,24,55,41,8
+    LTEXT           "象素",IDC_STATIC,108,55,17,8
+END
+
+IDD_GAME_SCORE DIALOGEX 0, 0, 198, 103
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "Res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

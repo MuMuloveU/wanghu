@@ -1,0 +1,104 @@
+body {
+	font-size:9pt;
+	margin-left:15px;
+	color:blue;
+	font-weight:600;
+}
+
+
+#conditions {
+	margin-bottom:35px;
+}
+
+#list {
+	border-top:1px solid green;
+	height:450px;
+	width:800px;
+	overflow:scroll;
+}
+
+#list li {
+	float:left;
+	width:120px;
+	margin-left:5px;
+}
+
+ul.title {
+	width:783px;
+	clear:both;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:0px;
+	border-left:1px solid green;
+	background-color:background;
+	color:#ffffff;
+	text-align:center;
+}
+
+ul.title li {
+	float:left;
+	width:120px;
+	margin-left:5px;
+}
+
+ul.body1 {
+	width:783px;
+	clear:both;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-left:1px solid green;
+	background-color:#ffffff;
+	color:background;
+	text-align:center;
+}
+
+ul.body2 {
+	width:783px;
+	clear:both;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-left:1px solid green;
+	background-color:#c0c0c0;
+	color:background;
+	text-align:center;
+}
+
+ul.selected {
+	width:783px;
+	clear:both;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-left:1px solid green;
+	background-color:pink;
+	color:background;
+	text-align:center;
+}
+
+
+#conditions div {
+	margin-bottom:5px;
+}
+div.title {
+	font-size:15pt;
+	clear:both;
+	color:#000000;
+	margin-bottom:5px;
+	height:35px;
+	font-weight:700;
+}
+
+
+input {
+	border:1px solid #c0c0c0;
+}

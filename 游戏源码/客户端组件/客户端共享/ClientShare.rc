@@ -1,0 +1,238 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientShare.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,0,1,0
+ PRODUCTVERSION 6,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "同城欢乐棋牌科技有限公司"
+            VALUE "CompanyName", "同城欢乐棋牌科技有限公司"
+            VALUE "FileDescription", "客户端框架共享组件"
+            VALUE "FileVersion", "6, 0, 1, 0"
+            VALUE "InternalName", "ClientShare.dll"
+            VALUE "LegalCopyright", "同城欢乐棋牌科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "ClientShare.dll"
+            VALUE "ProductName", "客户端框架共享组件"
+            VALUE "ProductVersion", "6, 0, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_EP_070              BITMAP                  "res\\EP_RES\\EP_070.bmp"
+IDB_EP_069              BITMAP                  "res\\EP_RES\\EP_069.bmp"
+IDB_EP_068              BITMAP                  "res\\EP_RES\\EP_068.bmp"
+IDB_EP_067              BITMAP                  "res\\EP_RES\\EP_067.bmp"
+IDB_EP_066              BITMAP                  "res\\EP_RES\\EP_066.bmp"
+IDB_EP_065              BITMAP                  "res\\EP_RES\\EP_065.bmp"
+IDB_EP_064              BITMAP                  "res\\EP_RES\\EP_064.bmp"
+IDB_EP_063              BITMAP                  "res\\EP_RES\\EP_063.bmp"
+IDB_EP_062              BITMAP                  "res\\EP_RES\\EP_062.bmp"
+IDB_EP_061              BITMAP                  "res\\EP_RES\\EP_061.bmp"
+IDB_EP_060              BITMAP                  "res\\EP_RES\\EP_060.bmp"
+IDB_EP_059              BITMAP                  "res\\EP_RES\\EP_059.bmp"
+IDB_EP_058              BITMAP                  "res\\EP_RES\\EP_058.bmp"
+IDB_EP_057              BITMAP                  "res\\EP_RES\\EP_057.bmp"
+IDB_EP_056              BITMAP                  "res\\EP_RES\\EP_056.bmp"
+IDB_EP_055              BITMAP                  "res\\EP_RES\\EP_055.bmp"
+IDB_EP_054              BITMAP                  "res\\EP_RES\\EP_054.bmp"
+IDB_EP_053              BITMAP                  "res\\EP_RES\\EP_053.bmp"
+IDB_EP_052              BITMAP                  "res\\EP_RES\\EP_052.bmp"
+IDB_EP_051              BITMAP                  "res\\EP_RES\\EP_051.bmp"
+IDB_EP_050              BITMAP                  "res\\EP_RES\\EP_050.bmp"
+IDB_EP_049              BITMAP                  "res\\EP_RES\\EP_049.bmp"
+IDB_EP_048              BITMAP                  "res\\EP_RES\\EP_048.bmp"
+IDB_EP_047              BITMAP                  "res\\EP_RES\\EP_047.bmp"
+IDB_EP_046              BITMAP                  "res\\EP_RES\\EP_046.bmp"
+IDB_EP_045              BITMAP                  "res\\EP_RES\\EP_045.bmp"
+IDB_EP_044              BITMAP                  "res\\EP_RES\\EP_044.bmp"
+IDB_EP_043              BITMAP                  "res\\EP_RES\\EP_043.bmp"
+IDB_EP_042              BITMAP                  "res\\EP_RES\\EP_042.bmp"
+IDB_EP_041              BITMAP                  "res\\EP_RES\\EP_041.bmp"
+IDB_EP_040              BITMAP                  "res\\EP_RES\\EP_040.bmp"
+IDB_EP_039              BITMAP                  "res\\EP_RES\\EP_039.bmp"
+IDB_EP_038              BITMAP                  "res\\EP_RES\\EP_038.bmp"
+IDB_EP_037              BITMAP                  "res\\EP_RES\\EP_037.bmp"
+IDB_EP_036              BITMAP                  "res\\EP_RES\\EP_036.bmp"
+IDB_EP_035              BITMAP                  "res\\EP_RES\\EP_035.bmp"
+IDB_EP_034              BITMAP                  "res\\EP_RES\\EP_034.bmp"
+IDB_EP_033              BITMAP                  "res\\EP_RES\\EP_033.bmp"
+IDB_EP_032              BITMAP                  "res\\EP_RES\\EP_032.bmp"
+IDB_EP_031              BITMAP                  "res\\EP_RES\\EP_031.bmp"
+IDB_EP_030              BITMAP                  "res\\EP_RES\\EP_030.bmp"
+IDB_EP_029              BITMAP                  "res\\EP_RES\\EP_029.bmp"
+IDB_EP_028              BITMAP                  "res\\EP_RES\\EP_028.bmp"
+IDB_EP_027              BITMAP                  "res\\EP_RES\\EP_027.bmp"
+IDB_EP_026              BITMAP                  "res\\EP_RES\\EP_026.bmp"
+IDB_EP_025              BITMAP                  "res\\EP_RES\\EP_025.bmp"
+IDB_EP_024              BITMAP                  "res\\EP_RES\\EP_024.bmp"
+IDB_EP_023              BITMAP                  "res\\EP_RES\\EP_023.bmp"
+IDB_EP_022              BITMAP                  "res\\EP_RES\\EP_022.bmp"
+IDB_EP_021              BITMAP                  "res\\EP_RES\\EP_021.bmp"
+IDB_EP_020              BITMAP                  "res\\EP_RES\\EP_020.bmp"
+IDB_EP_019              BITMAP                  "res\\EP_RES\\EP_019.bmp"
+IDB_EP_018              BITMAP                  "res\\EP_RES\\EP_018.bmp"
+IDB_EP_017              BITMAP                  "res\\EP_RES\\EP_017.bmp"
+IDB_EP_016              BITMAP                  "res\\EP_RES\\EP_016.bmp"
+IDB_EP_015              BITMAP                  "res\\EP_RES\\EP_015.bmp"
+IDB_EP_014              BITMAP                  "res\\EP_RES\\EP_014.bmp"
+IDB_EP_013              BITMAP                  "res\\EP_RES\\EP_013.bmp"
+IDB_EP_012              BITMAP                  "res\\EP_RES\\EP_012.bmp"
+IDB_EP_011              BITMAP                  "res\\EP_RES\\EP_011.bmp"
+IDB_EP_010              BITMAP                  "res\\EP_RES\\EP_010.bmp"
+IDB_EP_009              BITMAP                  "res\\EP_RES\\EP_009.bmp"
+IDB_EP_008              BITMAP                  "res\\EP_RES\\EP_008.bmp"
+IDB_EP_007              BITMAP                  "res\\EP_RES\\EP_007.bmp"
+IDB_EP_006              BITMAP                  "res\\EP_RES\\EP_006.bmp"
+IDB_EP_005              BITMAP                  "res\\EP_RES\\EP_005.bmp"
+IDB_EP_004              BITMAP                  "res\\EP_RES\\EP_004.bmp"
+IDB_EP_003              BITMAP                  "res\\EP_RES\\EP_003.bmp"
+IDB_EP_002              BITMAP                  "res\\EP_RES\\EP_002.bmp"
+IDB_EP_001              BITMAP                  "res\\EP_RES\\EP_001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EXPRESSION DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_HINT_MSG DIALOGEX 0, 0, 223, 69
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_HINT_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientShare.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

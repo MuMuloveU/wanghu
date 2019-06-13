@@ -1,0 +1,137 @@
+td {
+	FONT-SIZE:9pt; LINE-HEIGHT:150%; COLOR: #353535
+} 
+body {
+	FONT-SIZE:9pt; LINE-HEIGHT:150%: #666666; SCROLLBAR-3DLIGHT-COLOR: buttonhighlight; SCROLLBAR-ARROW-COLOR: #333333;
+	SCROLLBAR-TRACK-COLOR: #eeeeee; BORDER-BOTTOM: #ffffff 0pt solid;
+	FONT-STYLE: normal; FONT-FAMILY: "宋体"; SCROLLBAR-DARKSHADOW-COLOR: buttonshadow
+} 
+a:link {
+	color: #333333; text-decoration: none
+}
+a:visited {
+	color: #333333; text-decoration: none
+}
+a:active {
+c	olor: #333333; text-decoration: none
+}
+a:hover {
+	color: #ff0000; text-decoration: underline
+}
+A:unknown LINK {
+	TEXT-DECORATION: none
+}
+.list_link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8d1c1c; TEXT-DECORATION: none
+}
+.wenbenkuang {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #999999 1px solid; COLOR: #333333; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: "宋体"
+}
+.go-wenbenkuang {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 19px; BACKGROUND-COLOR: #eeeeee
+}
+.table-zuoyou {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+.table-shangxia {
+	BORDER-TOP: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.table-you {
+	BORDER-RIGHT: #cccccc 1px solid
+}
+.table-zuo {
+	BORDER-LEFT: #cccccc 1px solid
+}
+.table-shang {
+	BORDER-TOP: #cccccc 1px solid
+}
+.table-xia {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.table-xu {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+.matrix {
+	FONT-SIZE: 12px
+}
+.matrix A {
+	COLOR: #93393a
+}
+.matrix_sub {
+	BORDER-RIGHT: #c9c9c9 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: 0px; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(_images/botton2.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: #c9c9c9 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #c9c9c9 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.matrix_header {
+	BORDER-RIGHT: #c9c9c9 1px solid; BORDER-TOP: #c9c9c9 1px solid; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(_images/botton2.gif); PADDING-BOTTOM: 6px; BORDER-LEFT: #c9c9c9 1px solid; COLOR: #00469e; PADDING-TOP: 6px; BORDER-BOTTOM: #838383 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.matrix_info {
+	BORDER-RIGHT: #c9c9c9 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #c9c9c9 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #eae9e9 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.matrix_info_header {
+	BORDER-RIGHT: #c9c9c9 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c9c9c9 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #c9c9c9 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #eae9e9 1px solid; BACKGROUND-COLOR: #ebeaea
+}
+.matrix_content {
+	COLOR: #353535; BACKGROUND-COLOR: #ffffff
+}
+.matrix_left {
+	BORDER-LEFT: #c9c9c9 1px solid
+}
+.error {
+	BORDER-RIGHT: #ff0000 2px solid; BORDER-TOP: #ff0000 2px solid; BORDER-LEFT: #ff0000 2px solid; WIDTH: 95%; BORDER-BOTTOM: #ff0000 2px solid; BACKGROUND-COLOR: #ffdede
+}
+.error TD {
+	FONT-SIZE: 12px; COLOR: #ff0000
+}
+.error .title {
+	BACKGROUND-COLOR: #ff9393
+}
+.error .title TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff
+}
+.select {
+	BORDER-TOP: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid
+}
+.tableBorder {
+	WIDTH: 98%;
+	BACKGROUND-COLOR: #ffffff;
+	border: 1px solid #B5B6D6;
+
+}
+.color {
+	FONT-SIZE: 12px; COLOR: #d7fd62; TEXT-DECORATION: none
+}
+.line {
+	FONT-SIZE: 12px; LINE-HEIGHT: 25px; TEXT-DECORATION: none
+}
+.unnamed1 {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.unnamed2 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 25px; TEXT-DECORATION: none
+}
+.form {
+	font-size: 12px;
+	color: #666666;
+	background-color: #FFFFFF;
+	height: auto;
+	width: 100px;
+	border: 1px inset #999999;
+}
+.myform {
+	font-size: 12px;
+	color: #666666;
+	background-color: #FFFFFF;
+	height: auto;
+	width: 550px;
+	border: 1px inset #999999;
+}
+.theform {
+	font-size: 12px;
+	color: #666666;
+	background-color: #FFFFFF;
+	height: auto;
+	width: 300px;
+	border: 1px inset #999999;
+}
+.Button {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 19px; BACKGROUND-COLOR: #eeeeee
+}

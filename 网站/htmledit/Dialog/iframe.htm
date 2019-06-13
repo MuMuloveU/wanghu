@@ -1,0 +1,193 @@
+<HTML>
+<HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+
+<style type="text/css">
+body, a, table, div, span, td, th, input, select{font:9pt;font-family: "宋体", Verdana, Arial, Helvetica, sans-serif;}
+body {padding:5px}
+</style>
+
+<Script Language=JavaScript src="dialog.js"></script>
+
+
+<Script Language=JavaScript>
+var sAction = "INSERT";
+var sTitle = "插入";
+
+var oControl;
+var oSeletion;
+var sRangeType;
+
+var sUrl = "http://";
+var sScrolling = "";
+var sFrameBorder = "0";
+var sMarginHeight = "0";
+var sMarginWidth = "0";
+var sWidth = "500";
+var sHeight = "400";
+
+oSelection = dialogArguments.eWebEditor.document.selection.createRange();
+sRangeType = dialogArguments.eWebEditor.document.selection.type;
+
+if (sRangeType == "Control") {
+	if (oSelection.item(0).tagName == "IFRAME"){
+		sAction = "MODI";
+		sTitle = "修改";
+		oControl = oSelection.item(0);
+		sUrl = oControl.src;
+		sScrolling = oControl.scrolling;
+		sFrameBorder = oControl.frameBorder;
+		sMarginHeight = oControl.marginHeight;
+		sMarginWidth = oControl.marginWidth;
+		sWidth = oControl.width;
+		sHeight = oControl.height;
+	}
+}
+
+
+document.write("<title>网页帧属性（" + sTitle + "）</title>");
+
+// 初始值
+function InitDocument(){
+	SearchSelectValue(d_scrolling, sScrolling.toLowerCase());
+
+	d_url.value = sUrl;
+	d_frameborder.value = sFrameBorder;
+	d_marginheight.value = sMarginHeight;
+	d_marginwidth.value = sMarginWidth;
+	d_width.value = sWidth;
+	d_height.value = sHeight;
+
+}
+
+</Script>
+
+
+
+<title>网页帧属性（<%=sTitle%>）</title>
+
+<SCRIPT event=onclick for=Ok language=JavaScript>
+	sScrolling = d_scrolling.options[d_scrolling.selectedIndex].value;
+
+	sUrl = d_url.value;
+	if (!IsURL(sUrl)){
+		BaseAlert(d_url, "无效的网页地址！");
+		return;
+	}
+
+	d_frameborder.value = ToInt(d_frameborder.value);
+	d_marginheight.value = ToInt(d_marginheight.value);
+	d_marginwidth.value = ToInt(d_marginwidth.value);
+	sFrameBorder = d_frameborder.value;
+	sMarginHeight = d_marginheight.value;
+	sMarginWidth = d_marginwidth.value;
+
+	// 宽度高度有效值性
+	var sWidth = "";
+	if (!MoreThanOne(d_width,'无效的帧宽度！')) return;
+	sWidth = d_width.value;
+	var sHeight = "";
+	if (!MoreThanOne(d_height,'无效的帧高度！')) return;
+	sHeight = d_height.value;
+
+	if (sAction == "MODI") {
+		oControl.src = sUrl;
+		oControl.scrolling = sScrolling;
+		oControl.frameBorder = sFrameBorder;
+		oControl.marginHeight = sMarginHeight;
+		oControl.marginWidth = sMarginWidth;
+		oControl.width = sWidth;
+		oControl.height = sHeight;
+	}else{
+		dialogArguments.insertHTML("<iframe src='"+sUrl+"' scrolling='"+sScrolling+"' frameborder='"+sFrameBorder+"' marginheight='"+sMarginHeight+"' marginwidth='"+sMarginWidth+"' width='"+sWidth+"' height='"+sHeight+"'></iframe>");
+	}
+
+	window.returnValue = null;
+	window.close();
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JAVASCRIPT>
+
+
+// 判断值是否大于0
+function MoreThanOne(obj, sErr){
+	var b=false;
+	if (obj.value!=""){
+		obj.value=parseFloat(obj.value);
+		if (obj.value!="0"){
+			b=true;
+		}
+	}
+	if (b==false){
+		BaseAlert(obj,sErr);
+		return false;
+	}
+	return true;
+}
+
+</SCRIPT>
+</HEAD>
+
+<body bgcolor=menu onload="InitDocument()">
+
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+	<td>
+	<fieldset>
+	<legend>属性设置</legend>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>网页地址:</td>
+		<td width=5></td>
+		<td colspan=5><input type=text id=d_url size=38 value="" style="width:243px"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td noWrap>滚 动 条:</td>
+		<td width=5></td>
+		<td><select id=d_scrolling style="width:72px"><option value=''>默认</option><option value='yes'>有</option><option value='no'>无</option></select></td>
+		<td width=40></td>
+		<td noWrap>边 框 线:</td>
+		<td width=5></td>
+		<td><input id=d_frameborder size=10 maxlength=2 value="" ONKEYPRESS="event.returnValue=IsDigit();"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>上下边距:</td>
+		<td width=5></td>
+		<td><input id=d_marginheight size=10 maxlength=2 value="" ONKEYPRESS="event.returnValue=IsDigit();"></td>
+		<td width=40></td>
+		<td>左右边距:</td>
+		<td width=5></td>
+		<td><input id=d_marginwidth size=10 maxlength=2 value="" ONKEYPRESS="event.returnValue=IsDigit();"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>帧 宽 度:</td>
+		<td width=5></td>
+		<td><input id=d_width size=10 maxlength=4 value="" ONKEYPRESS="event.returnValue=IsDigit();"></td>
+		<td width=40></td>
+		<td>帧 高 度:</td>
+		<td width=5></td>
+		<td><input id=d_height size=10 maxlength=4 value="" ONKEYPRESS="event.returnValue=IsDigit();"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td align=right><input type=submit value='  确定  ' id=Ok>&nbsp;&nbsp;<input type=button value='  取消  ' onclick="window.close();"></td></tr>
+</table>
+
+</BODY>
+</HTML>

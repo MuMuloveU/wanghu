@@ -1,0 +1,136 @@
+;斗地主
+;------------------------------------------------
+;
+;------------------------------------------------
+[Setup]
+;
+;AppName AppId 决定了是否是相同的程序
+;
+AppName               = 安徽视频棋牌中心中国象棋
+AppId                 = 安徽视频棋牌中心
+
+AppVerName            = 中国象棋
+
+
+;不能选择安装路径
+;安装路径从注册表读取
+DisableDirPage        = yes
+;安装时的默认的路径
+DefaultDirName        = {reg:HKLM\Software\My Program,Path|{pf}\安徽视频棋牌中心}
+;游戏主键
+
+;没有在开始菜单中的名字
+DisableProgramGroupPage= yes
+
+;安装文件的输出名
+;安装文件的输出名
+OutputDir             = F:\game\演示
+;将打包文件输出到哪个目录
+
+OutputBaseFilename    = CHNchess
+
+;打包输出的文件名
+
+
+;是否使用以前默认的路径
+UsePreviousAppDir     = no
+
+;
+;单个游戏没有自己的卸载
+;
+Uninstallable        = no
+
+
+;
+;压缩
+;
+Compression           = zip/9
+SolidCompression      = yes
+
+;
+;显示的图
+;
+;WizardImageFile       =
+[Tasks]
+
+
+;------------------------------------------------
+;
+;------------------------------------------------
+[Files]
+;
+;exe
+;
+Source: "F:\game\chncess\CHNChess.exe";           DestDir: "{app}"; Flags: ignoreversion
+;原游戏EXE，这里是斗地主LAND.exe
+;
+;dll
+;
+
+;
+;other
+;												
+Source: "F:\game\chncess\CHNChess\Locker.bmp";        DestDir: "{app}\CHNChess"; Flags: ignoreversion
+Source: "F:\game\chncess\CHNChess\TableFrame.DAT";    DestDir: "{app}\CHNChess"; Flags: ignoreversion
+Source: "F:\game\chncess\CHNChess\TableNormal.bmp";   DestDir: "{app}\CHNChess"; Flags: ignoreversion
+Source: "F:\game\chncess\CHNChess\TablePlaying.bmp";  DestDir: "{app}\CHNChess"; Flags: ignoreversion
+Source: "F:\game\chncess\CHNChess\UserReady.bmp";     DestDir: "{app}\CHNChess"; Flags: ignoreversion
+
+;游戏桌子资源原目录
+
+;------------------------------------------------
+;
+;------------------------------------------------
+[Icons]
+
+
+;------------------------------------------------
+; 需要在安装结束后运行的程序
+;------------------------------------------------
+[Run]
+Filename: "{app}\GamePlaza.exe";     Flags: nowait postinstall skipifsilent
+
+
+
+;
+; 注册表
+;
+[Registry]
+
+
+
+
+;------------------------------------------------
+; 卸载的时候要做的事情
+;------------------------------------------------
+[UninstallDelete]
+
+
+
+[Code]
+//导入一个Windows API 函数
+function MessageBox(hWnd: Integer; lpText, lpCaption: String; uType: Cardinal): Integer;
+external 'MessageBoxA@user32.dll stdcall';
+
+//安装完成后
+//更新游戏列表
+procedure CurStepChanged(CurStep: TSetupStep);
+var
+  hWnd: HWND;
+
+begin
+    if CurStep=ssDone   then
+      begin
+        hWnd := FindWindowByClassName('114PKGamePlaza');
+
+        if hWnd <> 0 then
+          begin
+              //PostMessage(hWnd, 1124, 509, 0);          ;2021 是游戏的KINDID
+              MessageBox(0, 'PostMessage(hWnd, 1124, 509, 0);', 'MessageBox', MB_OK);
+          end
+     end
+end;
+
+//------------------------------------------------
+//                   the end
+//------------------------------------------------

@@ -1,0 +1,44 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (e4be13fa).
+//
+// ImageOle.tli
+//
+// Wrapper implementations for Win32 type library e:\\Program files\\tencent\\qq\\ImageOle.dll
+// compiler-generated file created 08/29/08 at 09:48:47 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IGifAnimator wrapper method implementations
+//
+
+inline HRESULT IGifAnimator::LoadFromFile ( _bstr_t FileName ) {
+    HRESULT _hr = raw_LoadFromFile(FileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IGifAnimator::TriggerFrameChange ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_TriggerFrameChange(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IGifAnimator::GetFilePath ( ) {
+    BSTR _result;
+    HRESULT _hr = raw_GetFilePath(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IGifAnimator::ShowText ( _bstr_t Text ) {
+    HRESULT _hr = raw_ShowText(Text);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IGifAnimator::GetImageSize ( int * pnWidth, int * pnHeight ) {
+    HRESULT _hr = raw_GetImageSize(pnWidth, pnHeight);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

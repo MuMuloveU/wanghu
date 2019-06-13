@@ -1,0 +1,13 @@
+<%
+  response.Cookies("admin99aw")=""
+  response.Cookies("flag")=""
+  session.Abandon()
+  response.Cookies("gonggao")=""
+  response.Cookies("xuesu")=""
+  response.Cookies("yanjiu")=""
+  response.Cookies("benke")=""
+  response.Cookies("xuesheng")=""
+  response.Cookies("jiuye")=""
+  response.Cookies("shehui")=""
+  response.Redirect("admin_login.asp") 
+%>

@@ -1,0 +1,163 @@
+.yToolbar
+{
+}
+TABLE.Toolbar
+{
+	BACKGROUND-IMAGE: URL(ToolbarBg.gif);
+	HEIGHT: 26px;
+}
+TABLE.Toolbar TD
+{
+	BACKGROUND-IMAGE: URL(ToolbarRIGHT.gif);
+	BACKGROUND-REPEAT:no-repeat;
+	BACKGROUND-POSITION:RIGHT;
+	padding-right:4px;
+	HEIGHT: 26px;
+	LEFT: 0px;
+	POSITION: relative;
+	TOP: 0px;
+}
+TABLE.Toolbar TR
+{
+	BACKGROUND-IMAGE: URL(ToolbarLeft.gif);
+	BACKGROUND-REPEAT:no-repeat;
+	BACKGROUND-POSITION:left;
+	padding-left:4px;
+	HEIGHT: 26px;
+	LEFT: 0px;
+	POSITION: relative;
+	TOP: 0px;
+}
+.Btn
+{
+	HEIGHT: 20px;
+	POSITION: absolute;
+	TOP: 2px;
+	WIDTH: 20px;
+}
+.TBSep
+{
+	BORDER-LEFT: #6B90CD 1px solid;
+	BORDER-RIGHT: #FFFFFF 1px solid;
+	FONT-SIZE: 0px;
+	HEIGHT: 15px;
+	POSITION: absolute;
+	TOP: 4px;
+	WIDTH:1px
+}
+.TBGen
+{
+	FONT: 8pt arial,sans-serif;
+	HEIGHT: 20px;
+	POSITION: absolute;
+	TOP: 2px
+}
+.TBHandle
+{
+	BACKGROUND-IMAGE: URL(TBHandle.GIF);
+	FONT-SIZE: 1px;
+	HEIGHT: 15px;
+	POSITION: absolute;
+	TOP: 4px;
+	left:0px;
+	WIDTH: 3px
+}
+.Ico
+{
+	HEIGHT: 20px;
+	LEFT: -1px;
+	POSITION: absolute;
+	TOP: -1px;
+	WIDTH: 20px
+}
+.BtnMouseOverUp
+{
+	BACKGROUND-COLOR: #9EBEF5;
+	BORDER-BOTTOM: #9EBEF5	1px solid;
+	BORDER-LEFT: #FFFFFF 1px solid;
+	BORDER-RIGHT: #9EBEF5 1px solid;
+	BORDER-TOP:	#FFFFFF	1px solid;
+	HEIGHT: 21px;
+	POSITION: absolute;
+	TOP: 1px;
+	WIDTH: 21px
+}
+.BtnMouseOverDown
+{
+	BACKGROUND-COLOR: #EAE7E3;
+	BORDER-BOTTOM: #FFFFFF 1px solid;
+	BORDER-LEFT: #9EBEF5 1px solid;
+	BORDER-RIGHT: #FFFFFF 1px solid;
+	BORDER-TOP:	#9EBEF5 1px solid;
+	HEIGHT: 21px;
+	POSITION: absolute;
+	TOP: 1px;
+	WIDTH: 21px
+}
+.BtnDown
+{
+	BACKGROUND-COLOR: #DCDCDC;
+	BORDER-BOTTOM: #9EBEF5 1px solid;
+	BORDER-LEFT: #9EBEF5 1px solid;
+	BORDER-RIGHT: #9EBEF5 1px solid;
+	BORDER-TOP:	#9EBEF5 1px solid;
+	HEIGHT: 21px;
+	POSITION: absolute;
+	TOP: 1px;
+	WIDTH: 21px
+}
+.IcoDown
+{
+	HEIGHT: 21px;
+	LEFT: 0px;
+	POSITION: absolute;
+	TOP: 0px;
+	WIDTH: 21px
+}
+.IcoDownPressed
+{
+	LEFT: 1px;
+	POSITION: absolute;
+	TOP: 1px
+}
+
+BODY
+{
+	BACKGROUND-COLOR:#9EBEF5;
+	MARGIN: 0px;
+	PADDING: 2px;
+}
+SELECT
+{
+    BACKGROUND: #eeeeee;
+    FONT: 8pt verdana,arial,sans-serif
+}
+TABLE
+{
+    POSITION: relative
+}
+.Composition
+{
+    BACKGROUND-COLOR: #cccccc;
+    POSITION: relative
+}
+
+
+
+.ContextMenuDiv {	border-top:buttonface 1px solid;border-left:buttonface 1px solid;border-bottom:windowframe 1px solid;border-right:windowframe 1px solid;}
+.ContextMenuTable {	border-top:window 1px solid;border-left:window 1px solid;border-bottom:buttonshadow 1px solid;border-right:buttonshadow 1px solid;}
+.ContextMenuMouseOver {background-color:highlight;color:highlighttext;font-size: 12px;cursor:default;font-size: 12px;}
+.ContextMenuMouseOut {background-color:buttonface;color:buttontext;font-size: 12px;cursor:default;font-size: 12px;}
+.ContextMenuLeftBg {background-color:#0072BC}
+
+
+
+TABLE.StatusBar
+{
+	BORDER-RIGHT: #9EBEF5 1px solid;
+	BORDER-BOTTOM: #9EBEF5	1px solid;
+	BACKGROUND-COLOR: #9EBEF5;
+}
+
+TD.StatusBarBtnOff {padding:1px 5px;border:1px outset;cursor:pointer;}
+TD.StatusBarBtnOn {padding:1px 5px;border:1px inset;background-color: #EEEEEE;}

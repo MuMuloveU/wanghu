@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BJServer", "BJServer.vcproj", "{B3CCBC6D-EA62-4DC9-9918-D91C3A0B9C76}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B3CCBC6D-EA62-4DC9-9918-D91C3A0B9C76}.Debug.ActiveCfg = Debug|Win32
+		{B3CCBC6D-EA62-4DC9-9918-D91C3A0B9C76}.Debug.Build.0 = Debug|Win32
+		{B3CCBC6D-EA62-4DC9-9918-D91C3A0B9C76}.Release.ActiveCfg = Release|Win32
+		{B3CCBC6D-EA62-4DC9-9918-D91C3A0B9C76}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

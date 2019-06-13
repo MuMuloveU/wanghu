@@ -1,0 +1,161 @@
+<HTML>
+<HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+
+<style type="text/css">
+body, a, table, div, span, td, th, input, select{font:9pt;font-family: "宋体", Verdana, Arial, Helvetica, sans-serif;}
+body {padding:5px}
+</style>
+<script language="JavaScript" src="dialog.js"></script>
+
+<Script language=JavaScript>
+var sAction = "INSERT";
+var sTitle = "插入";
+
+var oControl;
+var oChild;
+var oSeletion;
+var sRangeType;
+
+var sAlignFieldset = "";
+var sAlignLegend = "";
+var sBorderColor = "";
+var sBgColor = "";
+
+oSelection = dialogArguments.eWebEditor.document.selection.createRange();
+sRangeType = dialogArguments.eWebEditor.document.selection.type;
+
+if (sRangeType == "Control") {
+	if (oSelection.item(0).tagName == "FIELDSET"){
+		sAction = "MODI";
+		sTitle = "修改";
+		oControl = oSelection.item(0);
+		sAlignFieldset = oControl.align;
+		oChild = GetChildElement(oControl,"LEGEND");
+		if (oChild) sAlignLegend = oChild.align;
+		sBorderColor = oControl.style.borderColor;
+		sBgColor = oControl.style.backgroundColor;
+	}
+}
+
+
+document.write("<title>栏目框属性（" + sTitle + "）</title>");
+
+
+// 初始值
+function InitDocument(){
+	SearchSelectValue(d_alignfieldset, sAlignFieldset.toLowerCase());
+	SearchSelectValue(d_alignlegend, sAlignLegend.toLowerCase());
+
+	d_bordercolor.value = sBorderColor;
+	s_bordercolor.style.backgroundColor = sBorderColor;
+	d_bgcolor.value = sBgColor;
+	s_bgcolor.style.backgroundColor = sBgColor;
+
+}
+
+// 递归找标签名相同的第一个子对象
+function GetChildElement(obj, sTag){
+	var el;
+	for (var i=0;i<obj.children.length;i++){
+		if (obj.children[i].tagName==sTag){
+			return obj.children[i];
+		}else{
+			el=GetChildElement(obj.children[i], sTag);
+			if (el){
+				return el;
+			}
+		}
+	}
+	return null;
+}
+
+</script>
+
+<SCRIPT event=onclick for=Ok language=JavaScript>
+	// 边框颜色的有效性
+	sBorderColor = d_bordercolor.value;
+	if (!IsColor(sBorderColor)){
+		BaseAlert(d_bordercolor,'无效的边框颜色值！');
+		return;
+	}
+	// 背景颜色的有效性
+	sBgColor = d_bgcolor.value;
+	if (!IsColor(sBgColor)){
+		BaseAlert(d_bgcolor,'无效的背景颜色值！');
+		return;
+	}
+
+	sAlignFieldset = d_alignfieldset.options[d_alignfieldset.selectedIndex].value;
+	sAlignLegend = d_alignlegend.options[d_alignlegend.selectedIndex].value;
+
+	if (sAction == "MODI") {
+		oControl.align = sAlignFieldset;
+		if (oChild) oChild.align = sAlignLegend;
+		oControl.style.borderColor = sBorderColor;
+		oControl.style.backgroundColor = sBgColor;
+	}else{
+		dialogArguments.insertHTML("<fieldset align='"+sAlignFieldset+"' style='border-color:"+sBorderColor+";background-color:"+sBgColor+"'><legend align="+sAlignLegend+">标题</legend>内容</fieldset>");
+	}
+
+	window.returnValue = null;
+	window.close();
+</SCRIPT>
+</HEAD>
+
+<body bgcolor="menu" onload="InitDocument()">
+
+<table border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td>
+	<fieldset>
+	<legend>对齐方式</legend>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>栏目对齐:</td>
+		<td width=5></td>
+		<td><select id=d_alignfieldset style="width:72px"><option value=''>默认</option><option value='left'>左对齐</option><option value='center'>居中</option><option value='right'>右对齐</option></select></td>
+		<td width=40></td>
+		<td>标题对齐:</td>
+		<td width=5></td>
+		<td><select id=d_alignlegend style="width:72px"><option value=''>默认</option><option value='left'>左对齐</option><option value='center'>居中</option><option value='right'>右对齐</option></select></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+	<td>
+	<fieldset>
+	<legend>颜色属性</legend>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>边框颜色:</td>
+		<td width=5></td>
+		<td><input type=text id=d_bordercolor size=7 value=""></td>
+		<td><img border=0 src="../SysImage/rect.gif" width=18 style="cursor:hand" id=s_bordercolor onclick="SelectColor('bordercolor')"></td>
+		<td width=40></td>
+		<td>背景颜色:</td>
+		<td width=5></td>
+		<td><input type=text id=d_bgcolor size=7 value=""></td>
+		<td><img border=0 src="../SysImage/rect.gif" width=18 style="cursor:hand" id=s_bgcolor onclick="SelectColor('bgcolor')"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td align=right><input type=submit value='  确定  ' id=Ok>&nbsp;&nbsp;<input type=button value='  取消  ' onclick="window.close();"></td></tr>
+</table>
+
+</body>
+</html>

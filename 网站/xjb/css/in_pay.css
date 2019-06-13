@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body{padding:0;margin:0;color:#333; font-family: "ËÎÌו",Verdana, Arial; background:#FFF;}
+img,form {border:none;padding:0;margin:0;}
+a {color:#003366; text-decoration:none}
+a:hover {color:#FF3300}
+.f60 { color:#FF6600;}
+.f333 {color:#333;}
+.f990000 {color:#990000;}
+.f000066 {color:#000066;}
+.f287701 {color:#287701;}
+.left {float:left;}
+.right {float:right;}
+div .clear {font:1px/1px Verdana;height:1px;clear:both;}
+#wrap {width:auto;height:100%; text-align:center;}
+	#content {width:718px; border:1px solid #b6c3d4;margin:0 auto;}
+	#dh {padding:10px;border:1px solid #b30000; background:#fcf2bf;margin:10px 0 15px 0;font-size:14px;line-height:18px;font-weight:bold;color:#e61e19;}
+
+
+
+#wrap2 {width:auto;height:100%; text-align:center; background:url(../images/bg2.gif) repeat-x; text-align:center;}
+	#content2 {width:742px;margin:5px auto;}
+		#paytop {height:90px; background:url(../images/paytop.gif) no-repeat;}
+		#inpaybody {width:742px;background:url(../images/inpaybody.gif) no-repeat 0 top;overflow:auto; position:relative}
+			#inpayframe {width:423px;float:left;overflow:auto;display:inline;margin:25px 0 0 20px;}
+				#inpay_header {width:423px;height:44px; background:url(../images/inpay_header.gif) no-repeat;}
+				#inpay_body {width:423px; background:url(../images/inpay_body.gif) repeat-y;}
+					#pay_body {width:372px;margin:0 auto;}
+						.pay_tit {border-bottom:1px #ccc solid;height:20px;line-height:20px;font-size:12px;clear:both; text-align:left;}
+						.pay_tit .left {float:left;}
+						.pay_tit .right {float:right;padding-right:10px;}	
+						.pay_cz {padding:5px 0 5px 70px;}
+						
+				#ac_pay_tab {widht:370px;height:auto;padding-left:25px; text-align:left;margin-top:10px;}
+				#ac_pay_body { text-align:left;padding-left:25px;}
+				#ac_pay_body  ul {list-style:none;padding:0;margin:0;}
+				#ac_pay_body  ul li {width:350px;margin:0 10px;height:28px;line-height:28px;overflow:hidden;font-size:12px;}
+				#ac_pay_body  input {color:#000066;border:1px #999999 solid;}
+
+	
+						
+				#inpay_footer {width:423px;height:26px; background:url(../images/inpay_footer.gif) no-repeat;}
+				
+			#helpframe {width:269px; background:url(../images/point1.gif) no-repeat 0 center;float:left;margin-top:33px}
+				#help_body{width:249px;background:url(../images/helpbg.gif) no-repeat;float:right;padding-top:57px;}
+				#help_ac {border-left:1px #ccc solid;border-bottom:1px #ccc solid;border-right:1px #ccc solid;padding:5px 10px; text-align:left;font-size:12px;}
+				#help_ac ul {padding:0;margin:0;list-style:none;}
+				#help_ac ul li {height:22px;line-height:22px;clear:both;}
+				#help_ac ul li span {visibility:hidden; position:absolute;width:365px;height:265px; background:url(../images/mp_bg.gif) no-repeat;top:11%;right:38%;line-height:18px;}
+				#help_ac ul li span div {padding:10px 25px 10px 10px;}
+				#help_ac ul li a {color:#333; text-decoration:none;}
+				#help_ac ul li a:hover {color:#FF3300; cursor:pointer;}
+				#help_ac ul li a:active {color:#ff3300;cursor:pointer;}
+				#help_ac ul li a:hover span {color:#fff; visibility:visible;}
+				#help_ac ul li a:active span {color:#fff; visibility:visible;}
+				
+				#help_ac ul li .left {color:#0033FF}
+				#help_ac ul li .left a {color:#0033FF}
+				#help_ac ul li .left a:hover {color:#FF3300;}
+				#help_ac ul li .right {color:#0033FF}
+				#help_ac ul li .right a {color:#0033FF}
+				#help_ac ul li .right a:hover {color:#FF3300;}
+				
+		#onlone {margin:0 50px; text-align:left;font-size:12px;}
+		
+		
+		.ad_1 {width:680px;height:auto;margin:15px auto; background:#ccc;overflow:hidden;}
+		#buy_tit {width:710px;height:40px; background:url(../images/pay_buy.gif) no-repeat;margin:10px auto;}
+		#buy_body {width:698px;height:auto!important;min-height:400px;height:400px;overflow:hidden;margin:0 auto 10px auto;}
+		
+		
+		
+		#inpayfoot {width:742px;height:68px; background:url(../images/inpayfoot.gif) no-repeat 0 top;padding-top:15px;color:#666;font-size:12px;}
+		#inpayfoot div {display:inline;lnie-height:22px;}
+

@@ -1,0 +1,49 @@
+<style type="text/css">
+<!--
+body {
+	background-color: #88E0F8;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="83" align="center" bgcolor="#D7F2F9"><div id="demo" style="OVERFLOW: hidden; WIDTH: 700; COLOR: #ffffff">
+      <table cellspacing="0" cellpadding="0" align="left" border="0" cellspace="0">
+        <tbody>
+          <tr>
+            <td width="140" valign="top" id="demo1"><table width="700" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><a href="http://www.wowchina.com" target="_blank"><img src="images/123456789.gif" width="175" height="70" border="0" alt="魔兽世界"></a></td>
+                <td><a href="http://zhuxian.wanmei.com/" target="_blank"><img src="images/23456.jpg" width="175" height="70" border="0" alt="朱仙"></a></td>
+                <td><a href="http://mir2.sdo.com/" target="_blank"><img src="images/345678.gif" width="175" height="70" border="0" alt="热血传奇"></a></td>
+                <td><a href="http://au.9you.com" target="_blank"><img src="images/456789.gif" width="175" height="70" border="0" alt="劲舞团"></a></td>
+				<td><a href="http://dnf.qq.com" target="_blank"><img src="images/34567.jpg" width="175" height="70" border="0"></a></td>
+				<td><a href="http://xx.qq.com" target="_blank"><img src="images/234567.jpg" width="175" height="70" border="0"></a></td>
+				<td><a href="http://cf.qq.com" target="_blank"><img src="images/45678.jpg" width="175" height="70" border="0"></a></td>
+              </tr>
+            </table></td>
+            <td width="16" valign="top" bordercolor="0" id="demo2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+        <script>
+var speed3=25//速度数值越大速度越慢
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){
+if(demo2.offsetWidth-demo.scrollLeft<=0)
+demo.scrollLeft-=demo1.offsetWidth
+else{
+demo.scrollLeft++
+}
+}
+var MyMar=setInterval(Marquee,speed3)
+demo.onmouseover=function() {clearInterval(MyMar)}
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed3)}
+          </script>    </td>
+  </tr>
+</table>

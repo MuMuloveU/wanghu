@@ -1,0 +1,39 @@
+dt {
+	font-size: 12px;
+	line-height: 140%;
+	color: #000000;
+	text-decoration: none;
+}
+body {
+	font-family: "ËÎÌו";
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+.txt {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+.unnamed1 {
+	display: none;
+}
+.unnamed2 {
+	display: none;
+}
+input {
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+}
+.inp {
+	border: none;
+}
+.unnamed3 {
+	font-size: 16px;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}

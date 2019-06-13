@@ -1,0 +1,317 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,5,1,0
+ PRODUCTVERSION 6,5,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "连连看客户端"
+            VALUE "FileVersion", "6, 5, 1, 0"
+            VALUE "InternalName", "LLSHOW.exe"
+            VALUE "OriginalFilename", "LLSHOW.exe"
+            VALUE "ProductName", "连连看客户端"
+            VALUE "ProductVersion", "6, 5, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDT_LINK001   				TGA						"res\\link001.tga"
+IDT_LINK002   				TGA						"res\\link002.tga"
+IDT_LINK003   				TGA						"res\\link003.tga"
+IDT_LINK004   				TGA						"res\\link004.tga"
+IDT_LINK005   				TGA						"res\\link005.tga"
+IDT_LINK006   				TGA						"res\\link006.tga"
+IDT_LINK007   				TGA						"res\\link007.tga"
+IDT_LINK008   				TGA						"res\\link008.tga"
+IDT_LINK009   				TGA						"res\\link009.tga"
+IDT_LINK010   				TGA						"res\\link010.tga"
+IDT_BLAST001  				TGA						"res\\blast\\blast0001.tga"
+IDT_BLAST002  				TGA						"res\\blast\\blast0002.tga"
+IDT_BLAST003  				TGA						"res\\blast\\blast0003.tga"
+IDT_BLAST004  				TGA						"res\\blast\\blast0004.tga"
+IDT_BLAST005  				TGA						"res\\blast\\blast0005.tga"
+IDT_BLAST006  				TGA						"res\\blast\\blast0006.tga"
+IDT_BLAST007  				TGA						"res\\blast\\blast0007.tga"
+IDT_BLAST008  				TGA						"res\\blast\\blast0008.tga"
+IDT_BLAST009  				TGA						"res\\blast\\blast0009.tga"
+IDT_BLAST010  				TGA						"res\\blast\\blast0010.tga"
+IDT_BLAST011  				TGA						"res\\blast\\blast0011.tga"
+IDT_BLAST012  				TGA						"res\\blast\\blast0012.tga"
+IDT_BLAST013  				TGA						"res\\blast\\blast0013.tga"
+IDT_BLAST014  				TGA						"res\\blast\\blast0014.tga"
+IDT_BLAST015  				TGA						"res\\blast\\blast0015.tga"
+IDT_BLAST016  				TGA						"res\\blast\\blast0016.tga"
+IDT_BLAST017  				TGA						"res\\blast\\blast0017.tga"
+IDT_BLAST018  				TGA						"res\\blast\\blast0018.tga"
+IDT_BLAST019  				TGA						"res\\blast\\blast0019.tga"
+IDT_BLAST020  				TGA						"res\\blast\\blast0020.tga"
+IDT_BLAST021  				TGA						"res\\blast\\blast0021.tga"
+IDT_BLAST022  				TGA						"res\\blast\\blast0022.tga"
+IDT_BLAST023  				TGA						"res\\blast\\blast0023.tga"
+IDT_BLAST024  				TGA						"res\\blast\\blast0024.tga"
+IDT_BLAST025  				TGA						"res\\blast\\blast0025.tga"
+IDT_BLAST026  				TGA						"res\\blast\\blast0026.tga"
+IDT_BLAST027  				TGA						"res\\blast\\blast0027.tga"
+IDT_BLAST028  				TGA						"res\\blast\\blast0028.tga"
+IDT_BLAST029  				TGA						"res\\blast\\blast0029.tga"
+IDT_BLAST030     			TGA						"res\\blast\\blast0030.tga"
+IDT_BLAST031     			TGA						"res\\blast\\blast0031.tga"
+IDT_BLAST032     			TGA						"res\\blast\\blast0032.tga"
+IDT_BLAST033     			TGA						"res\\blast\\blast0033.tga"
+IDT_BLAST034     			TGA						"res\\blast\\blast0034.tga"
+IDT_BLAST035     			TGA						"res\\blast\\blast0035.tga"
+IDT_BLAST036     			TGA						"res\\blast\\blast0036.tga"
+IDT_BLAST037     			TGA						"res\\blast\\blast0037.tga"
+IDT_BLAST038     			TGA						"res\\blast\\blast0038.tga"
+IDT_BLAST039     			TGA						"res\\blast\\blast0039.tga"
+IDT_BLAST040     			TGA						"res\\blast\\blast0040.tga"
+IDT_BLAST041     			TGA						"res\\blast\\blast0041.tga"
+IDT_BLAST042     			TGA						"res\\blast\\blast0042.tga"
+IDT_BLAST043     			TGA						"res\\blast\\blast0043.tga"
+IDT_BLAST044     			TGA						"res\\blast\\blast0044.tga"
+IDT_BLAST045     			TGA						"res\\blast\\blast0045.tga"
+IDT_BLAST046     			TGA						"res\\blast\\blast0046.tga"
+IDT_CHESS_SMALL  			TGA						"res\\chess_small.tga"
+IDT_READY        			TGA						"res\\ready.tga"
+IDT_NUMBER       			TGA						"res\\NUMBER.tga"
+IDT_WIN          			TGA						"res\\WIN.tga"
+IDT_LOSE         			TGA						"res\\LOSE.tga"
+IDT_SCORE        			TGA						"res\\SCORE.tga"
+IDT_STOPIT       			TGA						"res\\STOPIT.tga"
+IDT_CRY          			TGA						"res\\cry.tga"
+IDT_SMALLCRY     			TGA						"res\\smallcry.tga"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "Res\\GAME_LOGO.bmp"
+IDB_BK_LEFT             BITMAP                  "res\\BACK_LEFT.bmp"
+IDB_BK_RIGHT            BITMAP                  "res\\BACK_RIGHT.bmp"
+IDB_SBKF                BITMAP                  "res\\INFO_USER_NOBODY.bmp"
+IDB_SBKT                BITMAP                  "res\\INFO_USER_OTHER.bmp"
+IDB_CHESS_FACE          BITMAP                  "res\\chess_face.bmp"
+IDB_BT_ADVISE           BITMAP                  "res\\ADVISE.bmp"
+IDB_BT_ORDER            BITMAP                  "res\\ORDER.bmp"
+IDB_BT_QUIT2            BITMAP                  "res\\QUIT2.bmp"
+IDB_BT_SET              BITMAP                  "res\\SET.bmp"
+IDB_BT_FACE             BITMAP                  "res\\BT_expression.bmp"
+IDB_BT_COLOR            BITMAP                  "res\\BT_COLOR_set.bmp"
+IDB_BT_CLEAR            BITMAP                  "res\\BT_CLEAN_SCREEN.bmp"
+IDB_BT_SEND             BITMAP                  "res\\TALK.bmp"
+IDB_FACE                BITMAP                  "res\\face.bmp"
+IDB_BT_TALK             BITMAP                  "res\\BT_TALK.bmp"
+IDB_BT_TAB              BITMAP                  "res\\BT_tabulation.bmp"
+IDB_BT_UP               BITMAP                  "res\\UP.bmp"
+IDB_BT_DOWN             BITMAP                  "res\\DOWN.bmp"
+IDB_BT_START            BITMAP                  "res\\START.bmp"
+IDB_BT_QUIT             BITMAP                  "res\\QUIT.bmp"
+IDB_BT_EXERCISE         BITMAP                  "res\\EXERCISE.bmp"
+IDB_IMPLEMENT_GUIDE     BITMAP                  "res\\IMPLEMENT_GUIDE.bmp"
+IDB_IMPLEMENT_RESET     BITMAP                  "res\\IMPLEMENT_RESET.bmp"
+IDB_IMPLEMENT_BOM       BITMAP                  "res\\IMPLEMENT_BOM.bmp"
+IDB_IMPLEMENT_STOPIT    BITMAP                  "res\\IMPLEMENT_STOPIT.bmp"
+IDB_TIMER               BITMAP                  "res\\TIME1.bmp"
+IDB_TIMER_BK            BITMAP                  "res\\TIME2.bmp"
+IDB_PARTICLE            BITMAP                  "res\\particle.bmp"
+IDB_TEAM_A              BITMAP                  "res\\TEAM_A.bmp"
+IDB_TEAM_B              BITMAP                  "res\\TEAM_B.bmp"
+IDB_TEAM_FREE           BITMAP                  "res\\TEAM_FREE.bmp"
+IDB_FRAME_CHOOSE        BITMAP                  "res\\FRAME_CHOOSE.bmp"
+IDB_CHESS_PROP          BITMAP                  "res\\CHESS_FACE_IMPLEMENT.bmp"
+IDB_IMPLEMENT_CLOG      BITMAP                  "res\\IMPLEMENT_CLOG.bmp"
+IDB_CHESS               BITMAP                  "res\\chess.bmp"
+IDB_PROPINFO            BITMAP                  "res\\propinfo.bmp"
+IDB_LLK_LOGO            BITMAP                  "res\\LLK_LOGO.bmp"
+IDT_CHESS_FACE_SMALL    BITMAP                  "res\\chess_face_small.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MY_HAND             CURSOR                  "res\\cur130.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_FRAME DIALOGEX 0, 0, 425, 303
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION " "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_SCORE DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_LISTINFO DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_CONTROL DIALOGEX 0, 0, 202, 135
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_OPTION DIALOGEX 0, 0, 175, 106
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,13,83,47,14
+    PUSHBUTTON      "取消",IDCANCEL,102,83,47,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,117,40,20,20
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,31,41,64,10
+    GROUPBOX        "常规配置：",IDC_STATIC,8,26,160,46
+    CONTROL         "允许背景音乐",IDC_ENABLE_MUSIC,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,31,58,64,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MIDI
+//
+
+IDR_BGMIDI              MIDI                    "res\\bg.mid"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+WAVE_START              WAVE                    "res\\start.wav"
+WAVE_SELECT             WAVE                    "res\\sel.wav"
+WAVE_LINK               WAVE                    "res\\link.wav"
+WAVE_FLYSTAR            WAVE                    "res\\flystar.wav"
+WAVE_END                WAVE                    "res\\end.wav"
+WAVE_BOMB               WAVE                    "res\\bomb.wav"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,6 @@
+; PropertyModule.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PropertyModuleD"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,299 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "四国军棋游戏客户端"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "FourEnsign.exe"
+            VALUE "OriginalFilename", "FourEnsign.exe"
+            VALUE "ProductName", "四国军棋游戏客户端"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_CHESS               BITMAP                  "res\\CHESS_768.bmp"
+IDB_CHESS_BORAD         BITMAP                  "res\\CHESS_BORAD_600.bmp"
+IDB_BT_BUTTON           BITMAP                  "res\\BT_BUTTON.bmp"
+IDB_ARROW               BITMAP                  "res\\ARROW.bmp"
+IDB_Game_End            BITMAP                  "res\\Game_End.bmp"
+IDB_FLAG                BITMAP                  "res\\FLAG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_USER_REQ DIALOGEX 0, 0, 189, 82
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "不同意",IDCANCEL,107,60,46,13
+    PUSHBUTTON      "同意",IDC_AGREE,36,60,46,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,17,28,20,20
+    LTEXT           "对家请求 [ 和棋 ] 你是否同意？",IDC_REQUEST_TEXT,47,35,
+                    125,8
+END
+
+IDD_GAME_SCORE DIALOGEX 0, 0, 198, 103
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_MANUAL DIALOGEX 0, 0, 391, 390
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_OPEN,7,362,45,16
+    PUSHBUTTON      "",IDC_RELOAD,60,362,45,16
+    PUSHBUTTON      "",IDC_FIRST,113,362,45,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_BEFORE,166,362,45,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_NEXT,219,362,45,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_LAST,272,362,45,16,WS_DISABLED
+    PUSHBUTTON      "",IDCANCEL,325,362,45,16
+    LISTBOX         IDC_MANUAL_LIST,281,5,105,345,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_GAME_RULE DIALOGEX 0, 0, 253, 171
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPCHILDREN
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_STEP_TIME,78,38,32,96,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_TIME_OUT_COUNT,178,38,32,96,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_LIMIT_TIME,97,56,32,96,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "比赛方式（游戏积分将会记录）",IDC_MATCH_MODE,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_DISABLED | WS_GROUP,26,
+                    92,128,10
+    CONTROL         "友谊方式（游戏积分不会记录）",IDC_FRIEND_MODE,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_DISABLED,26,106,128,10
+    CONTROL         "允许指点（游戏过程中允许交谈）",IDC_DIRECTIONS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,26,
+                    121,136,10
+    DEFPUSHBUTTON   "",IDOK,53,147,44,14
+    PUSHBUTTON      "",IDCANCEL,155,147,44,14
+    LTEXT           "读秒次数：",IDC_STATIC,134,40,41,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,187,98,20,20
+    LTEXT           "秒钟",IDC_STATIC,114,40,16,8
+    LTEXT           "次",IDC_STATIC,215,40,9,8
+    LTEXT           "分钟",IDC_STATIC,134,58,16,8
+    CONTROL         "限定时间模式：",IDC_ENABLE_LIMIT_TIME,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,26,
+                    58,68,10
+    CONTROL         "读秒时间：",IDC_ENABLE_STEP_TIME,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,26,
+                    40,52,10
+END
+
+IDD_OPTION DIALOGEX 0, 0, 203, 143
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,40,115,37,14
+    PUSHBUTTON      "取消",IDCANCEL,116,115,37,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,143,20,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,28,59,64,11
+    CONTROL         "顺时针走棋",IDC_DEASIL_ORDER,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,28,74,73,11
+END
+
+IDD_SAVE_CHESS_DLG DIALOGEX 0, 0, 170, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "保存棋局吗？"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "保存",IDOK,27,33,50,14
+    PUSHBUTTON      "取消",IDCANCEL,98,33,50,14
+    LTEXT           "         要保存本次棋局吗？",IDC_STATIC,37,15,91,8
+END
+
+IDD_FLAGDLG DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+AO                      WAVE                    "res\\AO.wav"
+CHESS_MOVE              WAVE                    "res\\CHESS_MOVE.WAV"
+GAME_END                WAVE                    "res\\GAME_END.WAV"
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_WARN               WAVE                    "res\\GAME_WARN.wav"
+LOSE_ONE_CHESS          WAVE                    "res\\LOSE_ONE_CHESS.wav"
+SELECT_CHESS            WAVE                    "res\\SELECT_CHESS.wav"
+SHOW_JUN_QI             WAVE                    "res\\SHOW_JUN_QI.wav"
+TWO_DIE                 WAVE                    "res\\TWO_DIE.wav"
+WIN_ONE_CHESS           WAVE                    "res\\WIN_ONE_CHESS.wav"
+BOMB                    WAVE                    "res\\BOMB.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MOVE_CURSOR         CURSOR                  "res\\MOVE_CURSOR.CUR"
+IDC_HAND_CURSOR         CURSOR                  "res\\HAND_CURSOR.cur"
+IDC_FORBID_MOVE_CURSOR  CURSOR                  "res\\FORBID_MOVE_CURSOR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SAVE_CHESS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_FLAGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

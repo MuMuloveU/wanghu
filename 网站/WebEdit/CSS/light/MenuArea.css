@@ -1,0 +1,8 @@
+BODY {margin:0px;border:0px}
+TD {font-size:9pt;font-family:"ËÎÌו,Verdana,Arial"}
+TABLE.Menu {border-top:window 1px solid;border-left:window 1px solid;border-bottom:buttonshadow 1px solid;border-right:buttonshadow 1px solid;background-color:#0072BC}
+TD.RightBg {background-color:buttonface}
+TD.MouseOver {background-color:highlight;color:highlighttext;cursor:default;}
+TD.MouseOut {background-color:buttonface;color:buttontext;cursor:default;}
+TD.HrShadow {background-color:buttonshadow;}
+TD.HrHighLight {background-color:buttonhighlight;}

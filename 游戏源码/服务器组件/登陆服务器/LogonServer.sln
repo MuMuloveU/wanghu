@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogonServer", "LogonServer.vcproj", "{D1D26E10-3E7E-4A5D-B614-8E03ADC03F79}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D1D26E10-3E7E-4A5D-B614-8E03ADC03F79}.Debug.ActiveCfg = Debug|Win32
+		{D1D26E10-3E7E-4A5D-B614-8E03ADC03F79}.Debug.Build.0 = Debug|Win32
+		{D1D26E10-3E7E-4A5D-B614-8E03ADC03F79}.Release.ActiveCfg = Release|Win32
+		{D1D26E10-3E7E-4A5D-B614-8E03ADC03F79}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

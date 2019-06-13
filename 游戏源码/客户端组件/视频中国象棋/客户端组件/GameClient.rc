@@ -1,0 +1,309 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 6,6,1,0
+PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "中国象棋"
+VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "ChinaChess.exe"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "ChinaChess.exe"
+            VALUE "ProductName", "中国象棋"
+VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "Res\\GAME_LOGO.bmp"
+IDB_WIN_LOSE            BITMAP                  "res\\WIN_LOSE.bmp"
+IDB_WAIT_GAME_RULE      BITMAP                  "res\\WAIT_GAME_RULE.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_VIEW_BACK_TR        BITMAP                  "res\\VIEW_BACK_TR.bmp"
+IDB_VIEW_BACK_TM        BITMAP                  "res\\VIEW_BACK_TM.bmp"
+IDB_VIEW_BACK_TL        BITMAP                  "res\\VIEW_BACK_TL.bmp"
+IDB_VIEW_BACK_MR        BITMAP                  "res\\VIEW_BACK_MR.bmp"
+IDB_VIEW_BACK_ML        BITMAP                  "res\\VIEW_BACK_ML.bmp"
+IDB_VIEW_BACK_BR        BITMAP                  "res\\VIEW_BACK_BR.bmp"
+IDB_VIEW_BACK_BM        BITMAP                  "res\\VIEW_BACK_BM.bmp"
+IDB_VIEW_BACK_BL        BITMAP                  "res\\VIEW_BACK_BL.bmp"
+IDB_USER_INFO_VIEW      BITMAP                  "res\\USER_INFO_VIEW.bmp"
+IDB_USER_INFO_FLAG      BITMAP                  "res\\USER_INFO_FLAG.bmp"
+IDB_RULE_OPTION_VIEW    BITMAP                  "res\\RULE_OPTION_VIEW.bmp"
+IDB_REQUEST_VIEW        BITMAP                  "res\\REQUEST_VIEW.bmp"
+IDB_REQUEST_REGRET_STRING BITMAP                  "res\\REQUEST_REGRET_STRING.bmp"
+IDB_REQUEST_PEACE_STRING BITMAP                  "res\\REQUEST_PEACE_STRING.bmp"
+IDB_REQUEST_BT_OK       BITMAP                  "res\\REQUEST_BT_OK.bmp"
+IDB_REQUEST_BT_CANCEL   BITMAP                  "res\\REQUEST_BT_CANCEL.bmp"
+IDB_OPTION_BT_OK        BITMAP                  "res\\OPTION_BT_OK.bmp"
+IDB_OPTION_BT_CANCEL    BITMAP                  "res\\OPTION_BT_CANCEL.bmp"
+IDB_MANUAL_VIEW_BT_TAIL BITMAP                  "res\\MANUAL_VIEW_BT_TAIL.bmp"
+IDB_MANUAL_VIEW_BT_SAVE BITMAP                  "res\\MANUAL_VIEW_BT_SAVE.bmp"
+IDB_MANUAL_VIEW_BT_PLAY BITMAP                  "res\\MANUAL_VIEW_BT_PLAY.bmp"
+IDB_MANUAL_VIEW_BT_NOTE BITMAP                  "res\\MANUAL_VIEW_BT_NOTE.bmp"
+IDB_MANUAL_VIEW_BT_NEXT BITMAP                  "res\\MANUAL_VIEW_BT_NEXT.bmp"
+IDB_MANUAL_VIEW_BT_LOAD BITMAP                  "res\\MANUAL_VIEW_BT_LOAD.bmp"
+IDB_MANUAL_VIEW_BT_LAST BITMAP                  "res\\MANUAL_VIEW_BT_LAST.bmp"
+IDB_MANUAL_VIEW_BT_HIDE BITMAP                  "res\\MANUAL_VIEW_BT_HIDE.bmp"
+IDB_MANUAL_VIEW_BT_HEAD BITMAP                  "res\\MANUAL_VIEW_BT_HEAD.bmp"
+IDB_MANUAL_VIEW_BT_CLOSE BITMAP                  "res\\MANUAL_VIEW_BT_CLOSE.bmp"
+IDB_MANUAL_VIEW_BACK    BITMAP                  "res\\MANUAL_VIEW_BACK.bmp"
+IDB_MANUAL_BT_TAIL      BITMAP                  "res\\MANUAL_BT_TAIL.bmp"
+IDB_MANUAL_BT_OPEN      BITMAP                  "res\\MANUAL_BT_OPEN.bmp"
+IDB_MANUAL_BT_NEXT      BITMAP                  "res\\MANUAL_BT_NEXT.bmp"
+IDB_MANUAL_BT_LAST      BITMAP                  "res\\MANUAL_BT_LAST.bmp"
+IDB_MANUAL_BT_HEAD      BITMAP                  "res\\MANUAL_BT_HEAD.bmp"
+IDB_GAME_SCORE          BITMAP                  "res\\GAME_SCORE.bmp"
+IDB_CONTROL_BACK        BITMAP                  "res\\CONTROL_BACK.bmp"
+IDB_CLOCK_NUMBER        BITMAP                  "res\\CLOCK_NUMBER.bmp"
+IDB_CHESS_MANUAL_T      BITMAP                  "res\\CHESS_MANUAL_T.bmp"
+IDB_CHESS_MANUAL_M      BITMAP                  "res\\CHESS_MANUAL_M.bmp"
+IDB_CHESS_MANUAL_B      BITMAP                  "res\\CHESS_MANUAL_B.bmp"
+IDB_CHESS_FRAME_S       BITMAP                  "res\\CHESS_FRAME_S.bmp"
+IDB_CHESS_FRAME         BITMAP                  "res\\CHESS_FRAME.bmp"
+IDB_CHESS_BORAD_S       BITMAP                  "res\\CHESS_BORAD_S.bmp"
+IDB_CHESS_BORAD         BITMAP                  "res\\CHESS_BORAD.bmp"
+IDB_BT_START            BITMAP                  "res\\BT_START.bmp"
+IDB_BT_REGRET           BITMAP                  "res\\BT_REGRET.bmp"
+IDB_BT_PRESERVE         BITMAP                  "res\\BT_PRESERVE.bmp"
+IDB_BT_PEACE            BITMAP                  "res\\BT_PEACE.bmp"
+IDB_BT_MANUAL           BITMAP                  "res\\BT_MANUAL.bmp"
+IDB_BT_GIVEUP           BITMAP                  "res\\BT_GIVEUP.bmp"
+IDB_BT_HINT_OK          BITMAP                  "res\\BT_HINT_OK.bmp"
+IDB_HINT_VIEW           BITMAP                  "res\\HINT_VIEW.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RULE_OPTION DIALOGEX 0, 0, 267, 271
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "快  棋：",IDC_FAST_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_DISABLED | WS_GROUP,32,48,48,10
+    COMBOBOX        IDC_DRAW_TIME,103,79,32,96,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "慢  棋：",IDC_SLOW_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_DISABLED,32,64,48,10
+    COMBOBOX        IDC_STEP_TIME,103,95,32,96,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "自定义：",IDC_CUSTOM_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_DISABLED,32,80,48,10
+    COMBOBOX        IDC_SECOND_TIME,103,112,32,96,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "允许悔棋",IDC_REGRET_FLAG,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_DISABLED | WS_TABSTOP,32,156,48,10
+    CONTROL         "允许指点 （游戏过程中可以聊天）",IDC_DIRECTIONS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,32,
+                    172,140,10
+    DEFPUSHBUTTON   "",IDOK,68,214,44,14
+    PUSHBUTTON      "",IDCANCEL,154,214,44,14
+    LTEXT           "秒钟",IDC_CUSTOM_STRING_6,141,114,16,8
+    LTEXT           "分钟",IDC_CUSTOM_STRING_4,141,97,16,8
+    LTEXT           "局时",IDC_CUSTOM_STRING_1,82,82,17,8
+    LTEXT           "步时",IDC_CUSTOM_STRING_3,82,97,17,8
+    LTEXT           "读秒",IDC_CUSTOM_STRING_5,82,114,17,8
+    LTEXT           "分钟",IDC_CUSTOM_STRING_2,141,81,16,8
+    LTEXT           "局时 60 分钟  步时 60 分钟  读秒 30 秒",
+                    IDC_FAST_DESCRIBE,82,49,159,8
+    LTEXT           "局时 60 分钟  步时 60 分钟  读秒 30 秒",
+                    IDC_SLOW_DESCRIBE,82,64,159,8
+END
+
+IDD_USER_REQUEST DIALOGEX 0, 0, 245, 188
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,59,118,46,13
+    PUSHBUTTON      "",IDCANCEL,141,118,46,13
+END
+
+IDD_CHESS_MANUAL DIALOGEX 0, 0, 305, 269
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LISTBOX         IDC_MANUAL_VIEW_LIST,191,25,102,163,LBS_NOINTEGRALHEIGHT | 
+                    NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_HEAD,190,197,19,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_LAST,211,197,19,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_PLAY,232,197,19,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_NEXT,253,197,19,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_TAIL,274,197,19,16,WS_DISABLED
+    PUSHBUTTON      "",IDCANCEL,279,5,18,14
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_LOAD,203,221,35,14
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_SAVE,245,221,35,14,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_VIEW_BT_NOTE,117,229,35,14,WS_DISABLED
+    PUSHBUTTON      "",IDC_HIDE,257,5,18,14
+END
+
+IDD_USER_HINT DIALOGEX 0, 0, 245, 188
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDOK,100,90,46,13
+END
+
+IDD_OPTION DIALOGEX 0, 0, 175, 108
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "允许用户旁观",IDC_ALLOW_LOOKON,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,58,64,10
+    GROUPBOX        "常规配置：",-1,8,29,160,48
+    ICON            IDR_MAINFRAME,-1,117,44,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,44,64,10
+    PUSHBUTTON      "取消",IDCANCEL,100,85,47,14
+    DEFPUSHBUTTON   "确定",IDOK,27,85,47,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+MANUAL_FLAG             PNG                     "res\\MANUAL_FLAG.png"
+CHESS_ITEM_S            PNG                     "res\\CHESS_ITEM_S.png"
+CHESS_ITEM              PNG                     "Res\\CHESS_ITEM.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+SELECT_CHESS            WAVE                    "res\\SELECT_CHESS.wav"
+MOVE_CHESS              WAVE                    "res\\MOVE_CHESS.wav"
+GENERAL                 WAVE                    "res\\GENERAL.wav"
+GAME_WIN                WAVE                    "res\\GAME_WIN.wav"
+GAME_WARN               WAVE                    "res\\GAME_WARN.wav"
+GAME_START              WAVE                    "res\\GAME_START.wav"
+GAME_LOSE               WAVE                    "res\\GAME_LOSE.wav"
+GAME_END                WAVE                    "res\\GAME_END.wav"
+EAT_CHESS               WAVE                    "res\\EAT_CHESS.wav"
+CHESS_DEAD              WAVE                    "res\\CHESS_DEAD.wav"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

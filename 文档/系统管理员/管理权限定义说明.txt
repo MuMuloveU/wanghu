@@ -1,0 +1,30 @@
+累加可设置多种权限
+
+//玩家权限定义
+#define UR_CANNOT_PLAY					0x00000001L				//不能进行游戏
+#define UR_CANNOT_LOOKON				0x00000002L				//不能旁观游戏
+#define UR_CANNOT_WISPER				0x00000004L				//不能发送私聊
+#define UR_CANNOT_ROOM_CHAT				0x00000008L				//不能大厅聊天
+#define UR_CANNOT_GAME_CHAT				0x00000010L				//不能游戏聊天
+
+
+
+//标志权限定义
+#define UR_MATCH_USER					0x10000000L				//比赛用户标志
+
+
+//管理权限定义
+#define UR_CAN_LIMIT_PLAY				0x00000001L				//允许禁止游戏
+#define UR_CAN_LIMIT_LOOKON				0x00000002L				//允许禁止旁观
+#define UR_CAN_LIMIT_WISPER				0x00000004L				//允许禁止私聊
+#define UR_CAN_LIMIT_ROOM_CHAT				0x00000008L				//允许禁止聊天
+#define UR_CAN_LIMIT_GAME_CHAT				0x00000010L				//允许禁止聊天
+#define UR_CAN_CUT_USER					0x00000020L				//允许踢出用户
+#define UR_CAN_FORBID_ACCOUNTS				0x00000040L				//允许封锁帐号
+#define UR_CAN_CONFINE_IP				0x00000080L				//允许禁止地址
+#define UR_CAN_SEE_USER_IP				0x00000100L				//允许查看地址
+#define UR_CAN_SEND_WARNING				0x00000200L				//允许发送警告
+#define UR_CAN_ISSUE_MESSAGE				0x00000400L				//允许发布消息
+#define UR_CAN_BIND_GAME				0x00000800L				//允许游戏绑定
+#define UR_CAN_BIND_GLOBAL				0x00001000L				//允许全局绑定
+#define UR_CAN_SERVER_OPTION				0x00002000L				//允许配置房间

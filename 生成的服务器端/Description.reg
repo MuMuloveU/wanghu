@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\tyqP2P]
+"Description"="用于中转用户的P2P信息"
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\tyqP2P]
+"Description"="用于中转用户的P2P信息"
+

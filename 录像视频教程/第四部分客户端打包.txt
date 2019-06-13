@@ -1,0 +1,45 @@
+　　大家好，应广大网友的要求，今天给大家做一个视频教程，关于网狐的教程，这个程序在淘宝有很多卖的，但不知道有哪个店长真正能把这个程序架设好，运行起来，并进行详细的设置。今天做这个视频就是解决一直困扰大家的有了程序不能用的问题。也欢迎光临我的小店，淘宝地址：http://store.taobao.com/shop/view_shop-9e20261a79c4796fdd3c1ea61b44cb5a.htm?nekot=g%2Cpj5ge53z1233056834139　　同时也欢迎大家交流：QQ：457189　好，下面进入正题，今天进行第四讲，客户端的打包。
+
+我们在第一节里讲了，客户端打包文件包括：资源文件、运行文件和打包配置文件。下面进行详细的讲解。
+下面以百家乐游戏为例进行讲解。首先进入我整理的目录的相应目录里。Baccarat目录为百家乐游戏目录。Baccarat文件夹为资源目录、Baccarat.exe为运行文件，就是我们上节讲的客户端在生成后就是这样的文件，生成后就在这里使用。weiqi.iss打包配置文件。下面进行详细的配置说明。
+
+{reg:HKLM\Software\My Program,Path|{pf}\沈阳视频棋牌中心　　　安装时的默认的路径
+F:\game\演示　　打包后的输出位置，这个你要自己设置成自己的。
+F:\game\Baccarat\Baccarat.exe　　运行文件地址，这里你要设置成你自己的地址
+Source: "F:\game\Baccarat\Baccarat\Locker.bmp";        DestDir: "{app}\Baccarat"; Flags: ignoreversion
+Source: "F:\game\Baccarat\Baccarat\TableFrame.DAT";    DestDir: "{app}\Baccarat"; Flags: ignoreversion
+Source: "F:\game\Baccarat\Baccarat\TableNormal.bmp";   DestDir: "{app}\Baccarat"; Flags: ignoreversion
+Source: "F:\game\Baccarat\Baccarat\TablePlaying.bmp";  DestDir: "{app}\Baccarat"; Flags: ignoreversion
+Source: "F:\game\Baccarat\Baccarat\UserReady.bmp";     DestDir: "{app}\Baccarat"; Flags: ignoreversion
+
+这是资源文件，打包时你也要设置成你自己的。
+
+
+Filename: "{app}\GamePlaza.exe"　需要在安装结束后运行的程序，其实也就是你的游戏大厅的名称。安装后直接运行大厅。
+
+此处为游戏的kind_id
+
+游戏的kind_id可以在数据库里查到。
+
+到此配置完毕，下面生成演示。
+
+好的，生成成功。生成后就可以替换掉网站目录down下相应的文件了。这样客户在使用时就可以直接下载使用了。
+
+好的，今天打包部分就讲到这里。谢谢观看
+
+欢迎交流：QQ：457189　　也欢迎光临我的淘宝小店
+　
+再见！
+
+
+
+
+
+
+
+
+
+
+
+
+

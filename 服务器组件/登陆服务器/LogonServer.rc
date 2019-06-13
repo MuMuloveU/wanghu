@@ -1,0 +1,194 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\LogonServer.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,0,1,0
+ PRODUCTVERSION 6,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "同城欢乐棋牌科技有限公司"
+            VALUE "CompanyName", "同城欢乐棋牌科技有限公司"
+            VALUE "FileDescription", "大厅服务器"
+            VALUE "FileVersion", "6, 0, 1, 0"
+            VALUE "InternalName", "LogonServer.exe"
+            VALUE "LegalCopyright", "同城欢乐棋牌科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "LogonServer.exe"
+            VALUE "ProductName", "大厅服务器"
+            VALUE "ProductVersion", "6, 0, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGONSERVER_DIALOG DIALOGEX 0, 0, 268, 165
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "登录服务器："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "启动服务",IDC_START_SERVICE,9,145,47,14
+    PUSHBUTTON      "停止服务",IDC_STOP_SERVICE,76,145,47,14,WS_DISABLED
+    PUSHBUTTON      "参数配置",IDC_INIT_SERVICE,143,145,47,14
+    PUSHBUTTON      "退出服务器",IDCANCEL,210,145,47,14
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,5,5,
+                    257,135,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+END
+
+IDD_SYSTEM_OPTION DIALOGEX 0, 0, 287, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统配置："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_USER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,67,
+                    52,74,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_PORT,67,68,74,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_NAME,67,84,74,12,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_USER,202,52,74,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_PASS,202,68,74,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAIN_PAGE,67,116,196,12,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "确定",IDOK,64,157,47,15
+    PUSHBUTTON      "取消",IDCANCEL,175,157,47,15
+    EDITTEXT        IDC_LISTEN_PORT,69,16,74,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_CONNECT,202,16,74,12,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_CLIENTEDGE
+    LTEXT           "监听端口：",IDC_STATIC,24,18,41,8
+    LTEXT           "连接容量：",IDC_STATIC,157,18,41,8
+    LTEXT           "数据库地址：",IDC_STATIC,14,54,49,8
+    LTEXT           "数据库用户：",IDC_STATIC,149,54,49,8
+    LTEXT           "数据库密码：",IDC_STATIC,149,70,49,8
+    LTEXT           "数据库名字：",IDC_STATIC,14,87,49,8
+    LTEXT           "游戏主站：",IDC_STATIC,22,118,41,8
+    LTEXT           "数据库端口：",IDC_STATIC,14,71,49,8
+    GROUPBOX        "网络配置：",IDC_STATIC,5,4,277,30
+    GROUPBOX        "用户数据库配置：",IDC_STATIC,5,37,277,65
+    GROUPBOX        "其他配置：",IDC_STATIC,5,105,277,45
+    CONTROL         "",IDC_CENTER_SERVER_IP,"SysIPAddress32",WS_TABSTOP,67,
+                    132,74,12,WS_EX_CLIENTEDGE
+    LTEXT           "中心服务器：",IDC_STATIC,14,134,49,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LogonServer.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\LogonServer.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

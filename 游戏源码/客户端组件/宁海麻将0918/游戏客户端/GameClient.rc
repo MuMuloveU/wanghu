@@ -1,0 +1,416 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "中国雨杰网络科技有限公司"
+            VALUE "CompanyName", "中国雨杰网络科技有限公司"
+            VALUE "FileDescription", "宁海麻将游戏客户端"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "SparrowNH.exe"
+            VALUE "LegalCopyright", "中国雨杰网络科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "SparrowNH.exe"
+            VALUE "ProductName", "宁海麻将麻将游戏客户端"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_CARD_USER_BOTTOM    BITMAP                  "res\\CARD_USER_BOTTOM.bmp"
+IDB_CARD_TABLE_TOP      BITMAP                  "res\\CARD_TABLE_TOP.bmp"
+IDB_CARD_TABLE_RIGHT    BITMAP                  "res\\CARD_TABLE_RIGHT.bmp"
+IDB_CARD_TABLE_LEFT     BITMAP                  "res\\CARD_TABLE_LEFT.bmp"
+IDB_CARD_TABLE_BOTTOM   BITMAP                  "res\\CARD_TABLE_BOTTOM.bmp"
+IDB_CARD_HEAP_SINGLE_V  BITMAP                  "res\\CARD_HEAP_SINGLE_V.bmp"
+IDB_CARD_HEAP_SINGLE_H  BITMAP                  "res\\CARD_HEAP_SINGLE_H.bmp"
+IDB_CARD_HEAP_DOUBLE_V  BITMAP                  "res\\CARD_HEAP_DOUBLE_V.bmp"
+IDB_CARD_HEAP_DOUBLE_H  BITMAP                  "res\\CARD_HEAP_DOUBLE_H.bmp"
+IDB_CARD_BACK_V         BITMAP                  "res\\CARD_BACK_V.bmp"
+IDB_CARD_BACK_H         BITMAP                  "res\\CARD_BACK_H.bmp"
+IDB_CARD_USER_TOP       BITMAP                  "res\\CARD_USER_TOP.bmp"
+IDB_CARD_USER_RIGHT     BITMAP                  "res\\CARD_USER_RIGHT.bmp"
+IDB_CARD_USER_LEFT      BITMAP                  "res\\CARD_USER_LEFT.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_USER_FLAG           BITMAP                  "res\\USER_FLAG.bmp"
+IDB_BT_START            BITMAP                  "res\\BT_START.bmp"
+IDB_BT_GIVEUP           BITMAP                  "res\\BT_GIVEUP.bmp"
+IDB_BT_CHIHU            BITMAP                  "res\\BT_CHIHU.bmp"
+IDB_ACTION_EXPLAIN      BITMAP                  "res\\ACTION_EXPLAIN.bmp"
+IDB_ACTION_BACK         BITMAP                  "res\\ACTION_BACK.bmp"
+IDB_WAIT_TIP            BITMAP                  "res\\WAIT_TIP.bmp"
+IDB_USER_ACTION         BITMAP                  "res\\USER_ACTION.bmp"
+IDB_OUT_CARD_TIP        BITMAP                  "res\\OUT_CARD_TIP.bmp"
+IDB_GAME_SCORE          BITMAP                  "res\\GAME_SCORE.bmp"
+IDB_CONTROL_TOP         BITMAP                  "res\\CONTROL_TOP.bmp"
+IDB_CONTROL_MID         BITMAP                  "res\\CONTROL_MID.bmp"
+IDB_CONTROL_BOTTOM      BITMAP                  "res\\CONTROL_BOTTOM.bmp"
+IDB_HUANG_ZHUANG        BITMAP                  "res\\HUANG_ZHUANG.bmp"
+IDB_VIEW_CENTER         BITMAP                  "res\\VIEW_CENTER.BMP"
+IDB_DRAW_SICE1          BITMAP                  "res\\SICE1.bmp"
+IDB_DRAW_SICE2          BITMAP                  "res\\SICE2.bmp"
+IDB_DRAW_SICE3          BITMAP                  "res\\SICE3.bmp"
+IDB_DRAW_SICE4          BITMAP                  "res\\SICE4.bmp"
+IDB_DRAW_SICE5          BITMAP                  "res\\SICE5.bmp"
+IDB_DRAW_SICE6          BITMAP                  "res\\SICE6.bmp"
+IDB_DRAW_SICE7          BITMAP                  "res\\SICE7.bmp"
+IDB_DRAW_SICE8          BITMAP                  "res\\SICE8.bmp"
+IDB_DRAW_SICE9          BITMAP                  "res\\SICE9.bmp"
+IDB_DRAW_SICE10         BITMAP                  "res\\SICE10.bmp"
+IDB_DRAW_SICE11         BITMAP                  "res\\SICE11.bmp"
+IDB_DRAW_SICE12         BITMAP                  "res\\SICE12.bmp"
+IDB_SICE_BACK           BITMAP                  "res\\SICE_BACK.bmp"
+IDB_WIN_LOSE            BITMAP                  "res\\WIN_LOSE.bmp"
+IDB_BT_SCORE_CLOSE      BITMAP                  "res\\BT_SCORE_CLOSE.bmp"
+IDB_GAME_SCORE_FLAG     BITMAP                  "res\\GAME_SCORE_FLAG.bmp"
+IDB_BT_START_TRUSTEE    BITMAP                  "res\\BT_START_TRUSTEE.bmp"
+IDB_BT_STOP_TRUSTEE     BITMAP                  "res\\BT_STOP_TRUSTEE.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+TRUSTEE                 PNG                     "res\\Trustee.png"
+ARROW                   PNG                     "res\\ARROW.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "res\\麻将声音\\OUT_CARD.WAV"
+GAME_WIN                WAVE                    "res\\麻将声音\\GAME_WIN.WAV"
+GAME_WARN               WAVE                    "res\\麻将声音\\GAME_WARN.WAV"
+GAME_START              WAVE                    "res\\麻将声音\\GAME_START.WAV"
+GAME_LOST               WAVE                    "res\\麻将声音\\GAME_LOST.WAV"
+GAME_END                WAVE                    "res\\麻将声音\\GAME_END.WAV"
+BOY_CHI                 WAVE                    "res\\麻将声音\\象山男\\BOY_CHI.WAV"
+BOY_PENG                WAVE                    "res\\麻将声音\\象山男\\BOY_PENG.WAV"
+BOY_CHI_HU              WAVE                    "res\\麻将声音\\象山男\\BOY_CHI_HU.WAV"
+BOY_GANG                WAVE                    "res\\麻将声音\\象山男\\BOY_GANG.WAV"
+GIRL_CHI                WAVE                    "res\\麻将声音\\象山女\\GIRL_CHI.WAV"
+GIRL_PENG               WAVE                    "res\\麻将声音\\象山女\\GIRL_PENG.WAV"
+GIRL_CHI_HU             WAVE                    "res\\麻将声音\\象山女\\GIRL_CHI_HU.WAV"
+GIRL_GANG               WAVE                    "res\\麻将声音\\象山女\\GIRL_GANG.WAV"
+BOY_1_BU_HUA            WAVE                    "res\\麻将声音\\象山男1\\BOY_HUA.WAV"
+BOY_1_W_9               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_9.WAV"
+BOY_1_W_8               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_8.WAV"
+BOY_1_W_7               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_7.WAV"
+BOY_1_W_6               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_6.WAV"
+BOY_1_W_5               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_5.WAV"
+BOY_1_W_4               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_4.WAV"
+BOY_1_W_3               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_3.WAV"
+BOY_1_W_2               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_2.WAV"
+BOY_1_W_1               WAVE                    "res\\麻将声音\\象山男1\\BOY_W_1.WAV"
+BOY_1_T_9               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_9.WAV"
+BOY_1_T_8               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_8.WAV"
+BOY_1_T_7               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_7.WAV"
+BOY_1_T_6               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_6.WAV"
+BOY_1_T_5               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_5.WAV"
+BOY_1_T_4               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_4.WAV"
+BOY_1_T_3               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_3.WAV"
+BOY_1_T_2               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_2.WAV"
+BOY_1_T_1               WAVE                    "res\\麻将声音\\象山男1\\BOY_T_1.WAV"
+BOY_1_S_9               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_9.WAV"
+BOY_1_S_8               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_8.WAV"
+BOY_1_S_7               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_7.WAV"
+BOY_1_S_6               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_6.WAV"
+BOY_1_S_5               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_5.WAV"
+BOY_1_S_4               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_4.WAV"
+BOY_1_S_3               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_3.WAV"
+BOY_1_S_2               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_2.WAV"
+BOY_1_S_1               WAVE                    "res\\麻将声音\\象山男1\\BOY_S_1.WAV"
+BOY_1_F_1               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_1.WAV"
+BOY_1_F_2               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_2.WAV"
+BOY_1_F_3               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_3.WAV"
+BOY_1_F_4               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_4.WAV"
+BOY_1_F_5               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_5.WAV"
+BOY_1_F_6               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_6.WAV"
+BOY_1_F_7               WAVE                    "res\\麻将声音\\象山男1\\BOY_F_7.WAV"
+GIRL_1_BU_HUA           WAVE                    "res\\麻将声音\\象山女1\\GIRL_HUA.WAV"
+GIRL_1_W_9              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_9.WAV"
+GIRL_1_W_8              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_8.WAV"
+GIRL_1_W_7              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_7.WAV"
+GIRL_1_W_6              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_6.WAV"
+GIRL_1_W_5              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_5.WAV"
+GIRL_1_W_4              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_4.WAV"
+GIRL_1_W_3              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_3.WAV"
+GIRL_1_W_2              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_2.WAV"
+GIRL_1_W_1              WAVE                    "res\\麻将声音\\象山女1\\GIRL_W_1.WAV"
+GIRL_1_T_9              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_9.WAV"
+GIRL_1_T_8              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_8.WAV"
+GIRL_1_T_7              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_7.WAV"
+GIRL_1_T_6              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_6.WAV"
+GIRL_1_T_5              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_5.WAV"
+GIRL_1_T_4              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_4.WAV"
+GIRL_1_T_3              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_3.WAV"
+GIRL_1_T_2              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_2.WAV"
+GIRL_1_T_1              WAVE                    "res\\麻将声音\\象山女1\\GIRL_T_1.WAV"
+GIRL_1_S_9              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_9.WAV"
+GIRL_1_S_8              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_8.WAV"
+GIRL_1_S_7              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_7.WAV"
+GIRL_1_S_6              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_6.WAV"
+GIRL_1_S_5              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_5.WAV"
+GIRL_1_S_4              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_4.WAV"
+GIRL_1_S_3              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_3.WAV"
+GIRL_1_S_2              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_2.WAV"
+GIRL_1_S_1              WAVE                    "res\\麻将声音\\象山女1\\GIRL_S_1.WAV"
+GIRL_1_F_1              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_1.WAV"
+GIRL_1_F_2              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_2.WAV"
+GIRL_1_F_3              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_3.WAV"
+GIRL_1_F_4              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_4.WAV"
+GIRL_1_F_5              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_5.WAV"
+GIRL_1_F_6              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_6.WAV"
+GIRL_1_F_7              WAVE                    "res\\麻将声音\\象山女1\\GIRL_F_7.WAV"
+BOY_2_BU_HUA            WAVE                    "res\\麻将声音\\象山男2\\BOY_HUA.WAV"
+BOY_2_W_9               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_9.WAV"
+BOY_2_W_8               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_8.WAV"
+BOY_2_W_7               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_7.WAV"
+BOY_2_W_6               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_6.WAV"
+BOY_2_W_5               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_5.WAV"
+BOY_2_W_4               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_4.WAV"
+BOY_2_W_3               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_3.WAV"
+BOY_2_W_2               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_2.WAV"
+BOY_2_W_1               WAVE                    "res\\麻将声音\\象山男2\\BOY_W_1.WAV"
+BOY_2_T_9               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_9.WAV"
+BOY_2_T_8               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_8.WAV"
+BOY_2_T_7               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_7.WAV"
+BOY_2_T_6               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_6.WAV"
+BOY_2_T_5               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_5.WAV"
+BOY_2_T_4               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_4.WAV"
+BOY_2_T_3               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_3.WAV"
+BOY_2_T_2               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_2.WAV"
+BOY_2_T_1               WAVE                    "res\\麻将声音\\象山男2\\BOY_T_1.WAV"
+BOY_2_S_9               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_9.WAV"
+BOY_2_S_8               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_8.WAV"
+BOY_2_S_7               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_7.WAV"
+BOY_2_S_6               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_6.WAV"
+BOY_2_S_5               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_5.WAV"
+BOY_2_S_4               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_4.WAV"
+BOY_2_S_3               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_3.WAV"
+BOY_2_S_2               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_2.WAV"
+BOY_2_S_1               WAVE                    "res\\麻将声音\\象山男2\\BOY_S_1.WAV"
+BOY_2_F_1               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_1.WAV"
+BOY_2_F_2               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_2.WAV"
+BOY_2_F_3               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_3.WAV"
+BOY_2_F_4               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_4.WAV"
+BOY_2_F_5               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_5.WAV"
+BOY_2_F_6               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_6.WAV"
+BOY_2_F_7               WAVE                    "res\\麻将声音\\象山男2\\BOY_F_7.WAV"
+GIRL_2_BU_HUA           WAVE                    "res\\麻将声音\\象山女2\\GIRL_HUA.WAV"
+GIRL_2_W_9              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_9.WAV"
+GIRL_2_W_8              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_8.WAV"
+GIRL_2_W_7              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_7.WAV"
+GIRL_2_W_6              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_6.WAV"
+GIRL_2_W_5              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_5.WAV"
+GIRL_2_W_4              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_4.WAV"
+GIRL_2_W_3              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_3.WAV"
+GIRL_2_W_2              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_2.WAV"
+GIRL_2_W_1              WAVE                    "res\\麻将声音\\象山女2\\GIRL_W_1.WAV"
+GIRL_2_T_9              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_9.WAV"
+GIRL_2_T_8              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_8.WAV"
+GIRL_2_T_7              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_7.WAV"
+GIRL_2_T_6              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_6.WAV"
+GIRL_2_T_5              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_5.WAV"
+GIRL_2_T_4              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_4.WAV"
+GIRL_2_T_3              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_3.WAV"
+GIRL_2_T_2              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_2.WAV"
+GIRL_2_T_1              WAVE                    "res\\麻将声音\\象山女2\\GIRL_T_1.WAV"
+GIRL_2_S_9              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_9.WAV"
+GIRL_2_S_8              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_8.WAV"
+GIRL_2_S_7              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_7.WAV"
+GIRL_2_S_6              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_6.WAV"
+GIRL_2_S_5              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_5.WAV"
+GIRL_2_S_4              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_4.WAV"
+GIRL_2_S_3              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_3.WAV"
+GIRL_2_S_2              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_2.WAV"
+GIRL_2_S_1              WAVE                    "res\\麻将声音\\象山女2\\GIRL_S_1.WAV"
+GIRL_2_F_1              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_1.WAV"
+GIRL_2_F_2              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_2.WAV"
+GIRL_2_F_3              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_3.WAV"
+GIRL_2_F_4              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_4.WAV"
+GIRL_2_F_5              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_5.WAV"
+GIRL_2_F_6              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_6.WAV"
+GIRL_2_F_7              WAVE                    "res\\麻将声音\\象山女2\\GIRL_F_7.WAV"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 166, 127
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,103,46,13
+    PUSHBUTTON      "取消",IDCANCEL,89,103,46,13
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,76,36,64,10
+    GROUPBOX        "常规配置",IDC_STATIC,17,24,134,36
+    GROUPBOX        "麻将配置",IDC_STATIC,17,65,134,36
+    COMBOBOX        IDC_COMBOX_MANDERIN,79,79,64,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    ICON            IDR_MAINFRAME,IDC_STATIC,32,34,20,20
+    LTEXT           "声音：",IDC_STATIC,29,83,25,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPTION DLGINIT
+BEGIN
+    IDC_COMBOX_MANDERIN, 0x403, 8, 0
+0xd5c6, 0xa8cd, 0xb0bb, 0x0031, 
+    IDC_COMBOX_MANDERIN, 0x403, 8, 0
+0xd5c6, 0xa8cd, 0xb0bb, 0x0032, 
+    0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

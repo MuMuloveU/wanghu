@@ -1,0 +1,353 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PropertyModule.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PropertyModule.dll"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "PropertyModule.dll"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPERTY_BAR DIALOGEX 0, 0, 310, 134
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BT_PROPERTY1,7,9,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY2,34,9,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY3,62,9,20,14
+    PUSHBUTTON      "",IDC_TOP_MOVE_TO_R,231,10,20,14
+    PUSHBUTTON      "",IDC_TOP_MOVE_TO_L,257,10,20,14
+    PUSHBUTTON      "",IDC_BOTTOM_MOVE_TO_R,231,29,20,14
+    PUSHBUTTON      "",IDC_BOTTOM_MOVE_TO_L,257,29,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY4,7,28,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY5,34,28,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY6,62,28,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY7,7,47,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY8,34,47,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY9,62,47,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY10,7,66,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY11,34,66,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY12,62,66,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY13,7,85,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY14,34,85,20,14
+    PUSHBUTTON      "",IDC_BT_PROPERTY15,62,85,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER1,114,10,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER2,147,10,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER3,177,10,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER4,113,29,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER5,147,29,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER6,177,29,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER7,113,48,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER8,147,48,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER9,177,48,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER10,113,67,20,14
+    PUSHBUTTON      "",IDC_BT_FLOWER11,147,67,20,14
+END
+
+IDD_PROPERTY_ITEM DIALOGEX 0, 0, 289, 262
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "购买",IDOK,72,232,59,14
+    PUSHBUTTON      "关闭",IDCANCEL,165,232,59,14
+    LTEXT           "名   称：",IDC_PROPERTY_NAME,81,27,35,8
+    LTEXT           "描   述：",IDC_PROPERTY_DESCRIBE,81,59,35,8
+    COMBOBOX        IDC_TARGET_USER,35,122,98,74,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "赠送对象：",IDC_STATIC,35,107,41,8
+    LTEXT           "有效期：",IDC_RESIDUAL_TIME,81,43,180,8
+    LTEXT           "道具类型：",IDC_STATIC,149,107,41,8
+    COMBOBOX        IDC_PROPERTY_TYPE,149,121,101,108,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "购买数目：",IDC_STATIC,35,150,41,8
+    EDITTEXT        IDC_PURCHASE_COUNT,89,148,63,13,ES_AUTOHSCROLL
+    LTEXT           "普通用户需支付游戏币：",IDC_NORMAL_USER_PRICE,35,172,
+                    238,8
+    LTEXT           "会员用户需支付游戏币：",IDC_MENBER_USER_PRICE,35,189,
+                    238,8
+    LTEXT           "银行游戏币：       ，购买道具后剩余游戏币：",
+                    IDC_GOLD_DESCRIBE,35,206,238,8
+    EDITTEXT        IDC_PRO_USER_ID,35,122,97,12,ES_AUTOHSCROLL
+END
+
+IDD_FLOWER_EFFECT DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_FLOWER_SETTING DIALOGEX 0, 0, 241, 172
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "赠送",IDOK,56,145,50,14
+    PUSHBUTTON      "关闭",IDCANCEL,132,145,50,14
+    EDITTEXT        IDC_FLOWER_COUNT,75,54,37,13,ES_AUTOHSCROLL
+    LTEXT           "数目：",IDC_STATIC,41,56,24,14
+    LTEXT           "赠送对象：",IDC_STATIC,25,35,41,8
+    COMBOBOX        IDC_TARGET_USER,75,32,67,96,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "普通用户需支付游戏币：",IDC_NORMAL_USER_PRICE,25,89,132,
+                    8
+    LTEXT           "会员用户需支付游戏币：",IDC_MENBER_USER_PRICE,25,106,
+                    134,8
+    EDITTEXT        IDC_PRO_USER_ID,75,32,98,12,ES_AUTOHSCROLL
+    LTEXT           "银行游戏币：       ，购买道具后剩余游戏币：",
+                    IDC_GOLD_DESCRIBE,25,123,202,8
+END
+
+IDD_BUGLE DIALOGEX 0, 0, 272, 166
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,57,145,50,14
+    PUSHBUTTON      "关闭",IDCANCEL,171,145,50,14
+    LTEXT           "小喇叭3000游戏币一条。每条消息不得超过60个字符，消息将在房间及房间内的所有游戏桌子上以醒目的方式显示。",
+                    IDC_PROPERTY_INFO,71,111,187,26
+    PUSHBUTTON      "",IDC_EXPRESSION,13,110,11,12
+    PUSHBUTTON      "",IDC_COLOR_SET,32,110,11,12
+    EDITTEXT        IDC_InputChat,12,29,246,73,ES_MULTILINE
+    LTEXT           "注：",IDC_STATIC,53,114,15,12
+END
+
+IDD_BANK_STORAGE DIALOGEX 0, 0, 262, 114
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,201,93,45,12
+    LTEXT           "当前游戏币数目：",IDC_STATIC,17,29,65,8
+    LTEXT           "...",IDC_GAME_GOLD,89,29,38,9
+    LTEXT           "银行游戏币数目：",IDC_STATIC,134,29,65,8
+    LTEXT           "...",IDC_STORAGE_GOLD,206,29,38,9
+    LTEXT           "请输入游戏币数目：",IDC_STATIC,17,52,73,8
+    PUSHBUTTON      "确定",IDOK,147,93,45,12
+    EDITTEXT        IDC_IN_COUNT,91,50,46,12,ES_AUTOHSCROLL
+    LTEXT           "操作：",IDC_STATIC,18,74,25,8
+    CONTROL         "存入游戏币",IDC_STORAGE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,46,74,56,10
+    CONTROL         "取出游戏币",IDC_DRAWOUT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,108,74,56,10
+    LTEXT           "请输入密码：",IDC_STATIC,17,94,51,8
+    EDITTEXT        IDC_USER_PASSWORD,65,92,46,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_CHARM_VALUE_EXCHANGE DIALOGEX 0, 0, 310, 93
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "兑换",IDC_BT_EXCHANGE,244,59,47,12
+    PUSHBUTTON      "关闭",IDCANCEL,244,75,47,12
+    LTEXT           "当前魅力值：",IDC_STATIC,26,31,49,8
+    LTEXT           "...",IDC_CHARM_VALUE,80,31,37,8
+    LTEXT           "银行存款游戏币：",IDC_STATIC_1,10,49,65,8
+    LTEXT           "123456789",IDC_GOLD_VALUE,80,49,34,8
+    LTEXT           "将",IDC_STATIC,172,38,9,8
+    EDITTEXT        IDC_EXCHANGE_CHARM_VALUE,184,36,36,13,ES_AUTOHSCROLL
+    LTEXT           "...",IDC_EXCHANGE_VALUE,100,71,108,8
+    LTEXT           "魅力值兑换成游戏币。",IDC_STATIC,223,38,81,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PROPERTY_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_PROPERTY_ITEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_FLOWER_EFFECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_FLOWER_SETTING, DIALOG
+    BEGIN
+        RIGHTMARGIN, 240
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_BUGLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_BANK_STORAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 261
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_CHARM_VALUE_EXCHANGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 309
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+GIFT_1                  PNG                     "res\\FlowerEffect\\GIFT_1.png"
+GIFT_2                  PNG                     "res\\FlowerEffect\\GIFT_2.png"
+GIFT_3                  PNG                     "res\\FlowerEffect\\GIFT_3.png"
+GIFT_4                  PNG                     "res\\FlowerEffect\\GIFT_4.png"
+GIFT_5                  PNG                     "res\\FlowerEffect\\GIFT_5.png"
+GIFT_6                  PNG                     "res\\FlowerEffect\\GIFT_6.png"
+GIFT_7                  PNG                     "res\\FlowerEffect\\GIFT_7.png"
+GIFT_8                  PNG                     "res\\FlowerEffect\\GIFT_8.png"
+GIFT_9                  PNG                     "res\\FlowerEffect\\GIFT_9.png"
+GIFT_10                 PNG                     "res\\FlowerEffect\\GIFT_10.png"
+GIFT_11                 PNG                     "res\\FlowerEffect\\GIFT_11.png"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PropertyModule.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

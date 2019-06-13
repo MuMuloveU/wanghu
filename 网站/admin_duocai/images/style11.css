@@ -1,0 +1,17 @@
+body,table,td,tr,p,input,select{font-size:12px}
+A:link{TEXT-DECORATION: none;color:#000000}
+A:hover {TEXT-DECORATION:none;COLOR:#ff0000}
+A:visited{TEXT-DECORATION: none;color:#000000}
+A:actived{TEXT-DECORATION: none}
+INPUT{BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc}
+textarea {border-width: 1; border-color: #000000; background-color: #ffffff; font-family: ËÎÌו; font-size: 9pt; font-style: bold;}
+select {border-width: 1; border-color: #000000; background-color: #ffffff; font-family: ËÎÌו; font-size: 9pt; font-style: bold;}
+.menu_title  { }
+.menu_title span  { position:relative; top:2px; left:8px; color:#215DC6; font-weight:bold; }
+.menu_title2  { }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#428EFF; font-weight:bold; }
+.td1
+{
+	background-color: #dff1eb;
+}
+.sec_menu  { border-left:1px solid white; border-right:1px solid white; border-bottom:1px solid white; overflow:hidden; background:#D6DFF7; }

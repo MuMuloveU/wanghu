@@ -1,0 +1,241 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "天涯网络有限公司"
+            VALUE "CompanyName", "天涯网络有限公司"
+            VALUE "FileDescription", "国际象棋"
+            VALUE "FileVersion", "6, 5, 1, 0"
+            VALUE "InternalName", "Chess.exe"
+            VALUE "LegalCopyright", "天涯网络有限公司保留所有权利。"
+            VALUE "OriginalFilename", "Chess.exe"
+            VALUE "ProductName", "国际象棋"
+            VALUE "ProductVersion", "6, 5, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_CHESS_BOARD         BITMAP                  "res\\CHESS_BOARD.bmp"
+IDB_CHESS_FRAME         BITMAP                  "res\\CHESS_FRAME.bmp"
+IDB_CHESS               BITMAP                  "res\\CHESS.bmp"
+IDB_CHESS_FLAG          BITMAP                  "res\\CHESS_FLAG.bmp"
+IDB_CLOCK               BITMAP                  "res\\CLOCK.bmp"
+IDB_GAME_SCORE          BITMAP                  "res\\GAME_SCORE.bmp"
+IDB_USER_INFO           BITMAP                  "res\\USER_INFO.bmp"
+IDB_DECORATE            BITMAP                  "res\\DECORATE.bmp"
+IDB_BUTTON_BACK         BITMAP                  "res\\BUTTON_BACK.bmp"
+IDB_GIVEUP              BITMAP                  "res\\GIVEUP.bmp"
+IDB_PEACE               BITMAP                  "res\\PEACE.bmp"
+IDB_PRESERVE            BITMAP                  "res\\PRESERVE.bmp"
+IDB_REGRET              BITMAP                  "res\\REGRET.bmp"
+IDB_START               BITMAP                  "res\\START.bmp"
+IDB_STUDY               BITMAP                  "res\\STUDY.bmp"
+IDB_CHESS_ROOK          BITMAP                  "res\\CHESS_ROOK.bmp"
+IDB_CHESS_ELEPHANT      BITMAP                  "res\\CHESS_ELEPHANT.bmp"
+IDB_CHESS_HORSE         BITMAP                  "res\\CHESS_HORSE.bmp"
+IDB_CHESS_QUEEN         BITMAP                  "res\\CHESS_QUEEN.bmp"
+IDB_CHESS_SELECT        BITMAP                  "res\\CHESS_SELECT.bmp"
+IDB_MANUAL_BT_RELOAD    BITMAP                  "res\\MANUAL_BT_RELOAD.bmp"
+IDB_MANUAL_BT_OPEN      BITMAP                  "res\\MANUAL_BT_OPEN.bmp"
+IDB_MANUAL_BT_NEXT      BITMAP                  "res\\MANUAL_BT_NEXT.bmp"
+IDB_MANUAL_BT_LAST      BITMAP                  "res\\MANUAL_BT_LAST.bmp"
+IDB_MANUAL_BT_FIRST     BITMAP                  "res\\MANUAL_BT_FIRST.bmp"
+IDB_MANUAL_BT_CLOSE     BITMAP                  "res\\MANUAL_BT_CLOSE.bmp"
+IDB_MANUAL_BT_BEFORE    BITMAP                  "res\\MANUAL_BT_BEFORE.bmp"
+IDB_MANUAL_BACK         BITMAP                  "res\\MANUAL_BACK.bmp"
+IDB_MANUAL_BT_PRESERVE  BITMAP                  "res\\MANUAL_BT_PRESERVE.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+PLACE_CHESS             WAVE                    "res\\PLACE_CHESS.wav"
+GAME_WIN                WAVE                    "res\\GAME_WIN.WAV"
+GAME_WARN               WAVE                    "res\\GAME_WARN.WAV"
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_LOST               WAVE                    "res\\GAME_LOST.WAV"
+GAME_END                WAVE                    "res\\GAME_END.WAV"
+CHESS_SELECT            WAVE                    "res\\CHESS_SELECT.WAV"
+CHESS_EAT               WAVE                    "res\\CHESS_EAT.WAV"
+CHESS_DEAD              WAVE                    "res\\CHESS_DEAD.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_USER_REQ DIALOGEX 0, 0, 189, 82
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "不同意",IDCANCEL,107,60,46,13
+    PUSHBUTTON      "同意",IDC_AGREE,36,60,46,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,17,28,20,20
+    LTEXT           "对家请求 [ 和棋 ] 你是否同意？",IDC_REQUEST_TEXT,47,35,
+                    125,8
+END
+
+IDD_OPTION DIALOGEX 0, 0, 174, 96
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,73,46,13
+    PUSHBUTTON      "取消",IDCANCEL,101,73,46,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,31,34,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,78,31,64,10
+    CONTROL         "显示棋子名字",IDC_SHOW_NAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,78,49,64,10
+END
+
+IDD_CHESS_SELECT DIALOGEX 0, 0, 129, 50
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_QUEEN,7,21,27,24
+    PUSHBUTTON      "",IDC_ROOK,36,21,27,24
+    PUSHBUTTON      "",IDC_HORSE,65,21,27,24
+    PUSHBUTTON      "",IDC_ELEPHANT,94,21,27,24
+END
+
+IDD_MANUAL DIALOGEX 0, 0, 391, 390
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_MANUAL_OPEN,14,362,33,16
+    PUSHBUTTON      "",IDC_MANUAL_PRESERVE,61,362,33,16
+    PUSHBUTTON      "",IDC_MANUAL_RELOAD,108,362,33,16
+    PUSHBUTTON      "",IDC_MANUAL_FIRST,155,362,33,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_BEFORE,202,362,33,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_NEXT,249,362,33,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_MANUAL_LAST,296,362,33,16,WS_DISABLED
+    PUSHBUTTON      "",IDCANCEL,343,362,33,16
+    LISTBOX         IDC_MANUAL_LIST,281,5,105,345,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

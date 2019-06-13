@@ -1,0 +1,279 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "中国雨杰网络科技有限公司"
+            VALUE "CompanyName", "中国雨杰网络科技有限公司"
+            VALUE "FileDescription", "单双"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "Baccarat.exe"
+            VALUE "LegalCopyright", "中国雨杰网络科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "Baccarat.exe"
+            VALUE "ProductName", "单双"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_JETTOM_VIEW         BITMAP                  "res\\JETTOM_VIEW.bmp"
+IDB_SCORE_NUMBER        BITMAP                  "res\\SCORE_NUMBER.bmp"
+IDB_BT_JETTON_100       BITMAP                  "res\\BT_JETTON_100.bmp"
+IDB_BT_JETTON_500       BITMAP                  "res\\BT_JETTON_500.bmp"
+IDB_BT_JETTON_1000      BITMAP                  "res\\BT_JETTON_1000.bmp"
+IDB_BT_JETTON_10000     BITMAP                  "res\\BT_JETTON_10000.bmp"
+IDB_BT_JETTON_50000     BITMAP                  "res\\BT_JETTON_50000.bmp"
+IDB_BT_JETTON_100000    BITMAP                  "res\\BT_JETTON_100000.bmp"
+IDB_BT_JETTON_500000    BITMAP                  "res\\BT_JETTON_500000.bmp"
+IDB_WIN_FLAGS           BITMAP                  "res\\WIN_FLAGS.bmp"
+IDB_BT_APPLY_BANKER     BITMAP                  "res\\BT_APPLY_BANKER.bmp"
+IDB_BT_CANCEL_BANKER    BITMAP                  "res\\BT_CANCEL_BANKER.bmp"
+IDB_BT_SCORE_MOVE_L     BITMAP                  "res\\BT_SCORE_MOVE_L.bmp"
+IDB_BT_SCORE_MOVE_R     BITMAP                  "res\\BT_SCORE_MOVE_R.bmp"
+IDB_FRAME_ODD           BITMAP                  "res\\FRAME_ODD.bmp"
+IDB_FRAME_EVEN          BITMAP                  "res\\FRAME_EVEN.bmp"
+IDB_GAME_END            BITMAP                  "res\\GAME_END.BMP"
+IDB_CHANGE_BANKER       BITMAP                  "res\\CHANGE_BANKER.bmp"
+IDB_ME_BANKER           BITMAP                  "res\\ME_BANKER.bmp"
+IDB_NO_BANKER           BITMAP                  "res\\NO_BANKER.bmp"
+IDB_BT_CANCEL_APPLY     BITMAP                  "res\\BT_CANCEL_APPLY.BMP"
+IDB_TIME_FLAG           BITMAP                  "res\\TIME_FLAG.bmp"
+IDB_ME_SCORE_NUMBER     BITMAP                  "res\\ME_SCORE_NUMBER.bmp"
+IDB_CLOSE_DICEBOX_1     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_1.BMP"
+IDB_CLOSE_DICEBOX_2     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_2.BMP"
+IDB_CLOSE_DICEBOX_3     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_3.BMP"
+IDB_CLOSE_DICEBOX_4     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_4.BMP"
+IDB_CLOSE_DICEBOX_5     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_5.BMP"
+IDB_CLOSE_DICEBOX_6     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_6.BMP"
+IDB_CLOSE_DICEBOX_7     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_7.BMP"
+IDB_CLOSE_DICEBOX_8     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_8.BMP"
+IDB_CLOSE_DICEBOX_9     BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_9.BMP"
+IDB_CLOSE_DICEBOX_10    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_10.BMP"
+IDB_CLOSE_DICEBOX_11    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_11.BMP"
+IDB_CLOSE_DICEBOX_12    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_12.BMP"
+IDB_CLOSE_DICEBOX_13    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_13.BMP"
+IDB_CLOSE_DICEBOX_14    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_14.BMP"
+IDB_CLOSE_DICEBOX_15    BITMAP                  "res\\CloseDicebox\\CLOSE_DICEBOX_15.BMP"
+IDB_OPEN_DICEBOX_1      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_1.BMP"
+IDB_OPEN_DICEBOX_2      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_2.BMP"
+IDB_OPEN_DICEBOX_3      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_3.BMP"
+IDB_OPEN_DICEBOX_4      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_4.BMP"
+IDB_OPEN_DICEBOX_5      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_5.BMP"
+IDB_OPEN_DICEBOX_6      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_6.BMP"
+IDB_OPEN_DICEBOX_7      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_7.BMP"
+IDB_OPEN_DICEBOX_8      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_8.BMP"
+IDB_OPEN_DICEBOX_9      BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_9.BMP"
+IDB_OPEN_DICEBOX_10     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_10.BMP"
+IDB_OPEN_DICEBOX_11     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_11.BMP"
+IDB_OPEN_DICEBOX_12     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_12.BMP"
+IDB_OPEN_DICEBOX_13     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_13.BMP"
+IDB_OPEN_DICEBOX_14     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_14.BMP"
+IDB_OPEN_DICEBOX_15     BITMAP                  "res\\OpenDicebox\\OPEN_DICEBOX_15.BMP"
+IDB_SHAKE_DICEBOX_1     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_1.BMP"
+IDB_SHAKE_DICEBOX_2     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_2.BMP"
+IDB_SHAKE_DICEBOX_3     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_3.BMP"
+IDB_SHAKE_DICEBOX_4     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_4.BMP"
+IDB_SHAKE_DICEBOX_5     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_5.BMP"
+IDB_SHAKE_DICEBOX_6     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_6.BMP"
+IDB_SHAKE_DICEBOX_7     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_7.BMP"
+IDB_SHAKE_DICEBOX_8     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_8.BMP"
+IDB_SHAKE_DICEBOX_9     BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_9.BMP"
+IDB_SHAKE_DICEBOX_10    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_10.BMP"
+IDB_SHAKE_DICEBOX_11    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_11.BMP"
+IDB_SHAKE_DICEBOX_12    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_12.BMP"
+IDB_SHAKE_DICEBOX_13    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_13.BMP"
+IDB_SHAKE_DICEBOX_14    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_14.BMP"
+IDB_SHAKE_DICEBOX_15    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_15.BMP"
+IDB_SHAKE_DICEBOX_16    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_16.BMP"
+IDB_SHAKE_DICEBOX_17    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_17.BMP"
+IDB_SHAKE_DICEBOX_18    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_18.BMP"
+IDB_SHAKE_DICEBOX_19    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_19.BMP"
+IDB_SHAKE_DICEBOX_20    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_20.BMP"
+IDB_SHAKE_DICEBOX_21    BITMAP                  "res\\ShakeDicebox\\SHAKE_DICEBOX_21.BMP"
+IDB_DICEBOX             BITMAP                  "res\\DICEBOX.BMP"
+IDB_DICE                BITMAP                  "res\\DICE.BMP"
+IDB_CLOSE_DICEBOX       BITMAP                  "res\\CLOSE_DICEBOX.BMP"
+IDB_WIN_FLAG            BITMAP                  "res\\WIN_FLAG.BMP"
+IDB_END_SCORE_NUMBER    BITMAP                  "res\\END_SCORE_NUMBER.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SCORE_100000        CURSOR                  "res\\SCORE_100000.cur"
+IDC_SCORE_500000        CURSOR                  "res\\SCORE_500000.cur"
+IDC_SCORE_50000         CURSOR                  "res\\SCORE_50000.cur"
+IDC_SCORE_10000         CURSOR                  "res\\SCORE_10000.cur"
+IDC_SCORE_1000          CURSOR                  "res\\SCORE_1000.cur"
+IDC_SCORE_100           CURSOR                  "res\\SCORE_100.cur"
+IDC_SCORE_500           CURSOR                  "res\\SCORE_500.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+ADD_GOLD                WAVE                    "res\\ADD_GOLD.wav"
+PLACE_JETTON            WAVE                    "res\\PLACE_JETTON.wav"
+GAME_START              WAVE                    "res\\GAME_START.wav"
+STOP_JETTON             WAVE                    "res\\STOP_JETTON.wav"
+SEND_CARD               WAVE                    "res\\SEND_CARD.wav"
+GAME_END                WAVE                    "res\\GAME_END.wav"
+SHAKE_DICE              WAVE                    "res\\SHAKE_DICE.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_GAME_RECORD DIALOGEX 0, 0, 328, 105
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RECORD_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | WS_TABSTOP,0,0,327,
+                    105
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_GAME_RECORD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 186
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

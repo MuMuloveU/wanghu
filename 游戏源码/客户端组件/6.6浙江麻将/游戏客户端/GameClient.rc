@@ -1,0 +1,297 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x37L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "中国雨杰网络科技有限公司"
+            VALUE "FileDescription", "浙江麻将客户端"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "SparrowZJ.exe"
+            VALUE "OriginalFilename", "SparrowZJ.exe"
+            VALUE "ProductName", "浙江麻将客户端"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_CARD_BACK_H         BITMAP                  "res\\CARD_BACK_H.bmp"
+IDB_CARD_BACK_V         BITMAP                  "res\\CARD_BACK_V.bmp"
+IDB_CARD_HEAP_DOUBLE_H  BITMAP                  "res\\CARD_HEAP_DOUBLE_H.bmp"
+IDB_CARD_HEAP_DOUBLE_V  BITMAP                  "res\\CARD_HEAP_DOUBLE_V.bmp"
+IDB_CARD_HEAP_SINGLE_H  BITMAP                  "res\\CARD_HEAP_SINGLE_H.bmp"
+IDB_CARD_HEAP_SINGLE_V  BITMAP                  "res\\CARD_HEAP_SINGLE_V.bmp"
+IDB_CARD_TABLE_BOTTOM   BITMAP                  "res\\CARD_TABLE_BOTTOM.bmp"
+IDB_CARD_TABLE_LEFT     BITMAP                  "res\\CARD_TABLE_LEFT.bmp"
+IDB_CARD_TABLE_RIGHT    BITMAP                  "res\\CARD_TABLE_RIGHT.bmp"
+IDB_CARD_TABLE_TOP      BITMAP                  "res\\CARD_TABLE_TOP.bmp"
+IDB_CARD_USER_BOTTOM    BITMAP                  "res\\CARD_USER_BOTTOM.bmp"
+IDB_CARD_USER_LEFT      BITMAP                  "res\\CARD_USER_LEFT.bmp"
+IDB_CARD_USER_RIGHT     BITMAP                  "res\\CARD_USER_RIGHT.bmp"
+IDB_CARD_USER_TOP       BITMAP                  "res\\CARD_USER_TOP.bmp"
+IDB_BT_START            BITMAP                  "res\\BT_START.bmp"
+IDB_OUT_CARD_TIP        BITMAP                  "res\\OUT_CARD_TIP.bmp"
+IDB_BT_CHIHU            BITMAP                  "res\\BT_CHIHU.bmp"
+IDB_ACTION_BACK         BITMAP                  "res\\ACTION_BACK.bmp"
+IDB_USER_ACTION         BITMAP                  "res\\USER_ACTION.bmp"
+IDB_USER_FLAG           BITMAP                  "res\\USER_FLAG.bmp"
+IDB_BT_GIVEUP           BITMAP                  "res\\BT_GIVEUP.bmp"
+IDB_CONTROL_TOP         BITMAP                  "res\\CONTROL_TOP.bmp"
+IDB_CONTROL_BOTTOM      BITMAP                  "res\\CONTROL_BOTTOM.bmp"
+IDB_CONTROL_MID         BITMAP                  "res\\CONTROL_MID.bmp"
+IDB_WAIT_TIP            BITMAP                  "res\\WAIT_TIP.bmp"
+IDB_GAME_SCORE          BITMAP                  "res\\GAME_SCORE.bmp"
+IDB_ACTION_EXPLAIN      BITMAP                  "res\\ACTION_EXPLAIN.bmp"
+IDB_CONSIGN_ENTER       BITMAP                  "res\\CONSIGN_ENTER.bmp"
+IDB_CONSIGN_CANCEL      BITMAP                  "res\\CONSIGN_CANCLAI.bmp"
+IDB_MONEY_LEFT          BITMAP                  "res\\MONEY_LEFT.bmp"
+IDB_TIP_INFO            BITMAP                  "res\\TIP_INFO.bmp"
+IDB_KING_BROTHER_TOP    BITMAP                  "res\\KING_BROTHER_TOP.bmp"
+IDB_KING_BROTHER_BOTTOM BITMAP                  "res\\KING_BROTHER_BOTTOM.bmp"
+IDB_KING_BROTHER_LEFT   BITMAP                  "res\\KING_BROTHER_LEFT.bmp"
+IDB_KING_BROTHER_RIGHT  BITMAP                  "res\\KING_BROTHER_RIGHT.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\HAND.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "res\\SoundCX\\OUT_CARD.wav"
+GAME_START              WAVE                    "res\\SoundCX\\GAME_START.wav"
+GAME_WARN               WAVE                    "res\\SoundCX\\GAME_WARN.WAV"
+GIRL1_GAME_HU_CHI       WAVE                    "res\\SoundCX\\Girl1\\GAME_HU_CHI.wav"
+GIRL1_GAME_HU_ZIMO      WAVE                    "res\\SoundCX\\Girl1\\GAME_HU_ZIMO.WAV"
+GIRL1_GAME_HU_KONGF     WAVE                    "res\\SoundCX\\Girl1\\GAME_HU_KONGF.WAV"
+GIRL1_GAME_END          WAVE                    "res\\SoundCX\\Girl1\\GAME_END.WAV"
+GIRL1_COMMAND_CHOW      WAVE                    "res\\SoundCX\\Girl1\\COMMAND_CHOW.WAV"
+GIRL1_COMMAND_PONG      WAVE                    "res\\SoundCX\\Girl1\\COMMAND_PONG.WAV"
+GIRL1_COMMAND_KONG      WAVE                    "res\\SoundCX\\Girl1\\COMMAND_KONG.WAV"
+GIRL1_CHARACTER_1       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_1.WAV"
+GIRL1_CHARACTER_2       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_2.WAV"
+GIRL1_CHARACTER_3       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_3.WAV"
+GIRL1_CHARACTER_4       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_4.WAV"
+GIRL1_CHARACTER_5       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_5.WAV"
+GIRL1_CHARACTER_6       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_6.WAV"
+GIRL1_CHARACTER_7       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_7.WAV"
+GIRL1_CHARACTER_8       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_8.WAV"
+GIRL1_CHARACTER_9       WAVE                    "res\\SoundCX\\Girl1\\CHARACTER_9.WAV"
+GIRL1_BAMBOO_1          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_1.WAV"
+GIRL1_BAMBOO_2          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_2.WAV"
+GIRL1_BAMBOO_3          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_3.WAV"
+GIRL1_BAMBOO_4          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_4.WAV"
+GIRL1_BAMBOO_5          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_5.WAV"
+GIRL1_BAMBOO_6          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_6.WAV"
+GIRL1_BAMBOO_7          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_7.WAV"
+GIRL1_BAMBOO_8          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_8.WAV"
+GIRL1_BAMBOO_9          WAVE                    "res\\SoundCX\\Girl1\\BAMBOO_9.WAV"
+GIRL1_CIRCLE_1          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_1.WAV"
+GIRL1_CIRCLE_2          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_2.WAV"
+GIRL1_CIRCLE_3          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_3.WAV"
+GIRL1_CIRCLE_4          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_4.WAV"
+GIRL1_CIRCLE_5          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_5.WAV"
+GIRL1_CIRCLE_6          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_6.WAV"
+GIRL1_CIRCLE_7          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_7.WAV"
+GIRL1_CIRCLE_8          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_8.WAV"
+GIRL1_CIRCLE_9          WAVE                    "res\\SoundCX\\Girl1\\CIRCLE_9.WAV"
+GIRL1_WIND_EAST         WAVE                    "res\\SoundCX\\Girl1\\WIND_EAST.WAV"
+GIRL1_WIND_SOUTH        WAVE                    "res\\SoundCX\\Girl1\\WIND_SOUTH.WAV"
+GIRL1_WIND_WEST         WAVE                    "res\\SoundCX\\Girl1\\WIND_WEST.WAV"
+GIRL1_WIND_NORTH        WAVE                    "res\\SoundCX\\Girl1\\WIND_NORTH.WAV"
+GIRL1_DRAGON_RED        WAVE                    "res\\SoundCX\\Girl1\\DRAGON_RED.WAV"
+GIRL1_DRAGON_GREEN      WAVE                    "res\\SoundCX\\Girl1\\DRAGON_GREEN.WAV"
+GIRL1_DRAGON_WHITE      WAVE                    "res\\SoundCX\\Girl1\\DRAGON_WHITE.WAV"
+BOY1_GAME_HU_CHI        WAVE                    "res\\SoundCX\\Boy1\\GAME_HU_CHI.wav"
+BOY1_GAME_HU_ZIMO       WAVE                    "res\\SoundCX\\Boy1\\GAME_HU_ZIMO.WAV"
+BOY1_GAME_HU_KONGF      WAVE                    "res\\SoundCX\\Boy1\\GAME_HU_KONGF.WAV"
+BOY1_GAME_END           WAVE                    "res\\SoundCX\\Boy1\\GAME_END.WAV"
+BOY1_COMMAND_CHOW       WAVE                    "res\\SoundCX\\Boy1\\COMMAND_CHOW.WAV"
+BOY1_COMMAND_PONG       WAVE                    "res\\SoundCX\\Boy1\\COMMAND_PONG.WAV"
+BOY1_COMMAND_KONG       WAVE                    "res\\SoundCX\\Boy1\\COMMAND_KONG.WAV"
+BOY1_CHARACTER_1        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_1.WAV"
+BOY1_CHARACTER_2        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_2.WAV"
+BOY1_CHARACTER_3        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_3.WAV"
+BOY1_CHARACTER_4        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_4.WAV"
+BOY1_CHARACTER_5        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_5.WAV"
+BOY1_CHARACTER_6        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_6.WAV"
+BOY1_CHARACTER_7        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_7.WAV"
+BOY1_CHARACTER_8        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_8.WAV"
+BOY1_CHARACTER_9        WAVE                    "res\\SoundCX\\Boy1\\CHARACTER_9.WAV"
+BOY1_BAMBOO_1           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_1.WAV"
+BOY1_BAMBOO_2           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_2.WAV"
+BOY1_BAMBOO_3           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_3.WAV"
+BOY1_BAMBOO_4           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_4.WAV"
+BOY1_BAMBOO_5           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_5.WAV"
+BOY1_BAMBOO_6           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_6.WAV"
+BOY1_BAMBOO_7           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_7.WAV"
+BOY1_BAMBOO_8           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_8.WAV"
+BOY1_BAMBOO_9           WAVE                    "res\\SoundCX\\Boy1\\BAMBOO_9.WAV"
+BOY1_CIRCLE_1           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_1.WAV"
+BOY1_CIRCLE_2           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_2.WAV"
+BOY1_CIRCLE_3           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_3.WAV"
+BOY1_CIRCLE_4           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_4.WAV"
+BOY1_CIRCLE_5           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_5.WAV"
+BOY1_CIRCLE_6           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_6.WAV"
+BOY1_CIRCLE_7           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_7.WAV"
+BOY1_CIRCLE_8           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_8.WAV"
+BOY1_CIRCLE_9           WAVE                    "res\\SoundCX\\Boy1\\CIRCLE_9.WAV"
+BOY1_WIND_EAST          WAVE                    "res\\SoundCX\\Boy1\\WIND_EAST.WAV"
+BOY1_WIND_SOUTH         WAVE                    "res\\SoundCX\\Boy1\\WIND_SOUTH.WAV"
+BOY1_WIND_WEST          WAVE                    "res\\SoundCX\\Boy1\\WIND_WEST.WAV"
+BOY1_WIND_NORTH         WAVE                    "res\\SoundCX\\Boy1\\WIND_NORTH.WAV"
+BOY1_DRAGON_RED         WAVE                    "res\\SoundCX\\Boy1\\DRAGON_RED.WAV"
+BOY1_DRAGON_GREEN       WAVE                    "res\\SoundCX\\Boy1\\DRAGON_GREEN.WAV"
+BOY1_DRAGON_WHITE       WAVE                    "res\\SoundCX\\Boy1\\DRAGON_WHITE.WAV"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_SCORE DIALOGEX 0, 0, 198, 103
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x1
+BEGIN
+END
+
+IDD_OPTION DIALOG  0, 0, 174, 115
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,92,46,13
+    PUSHBUTTON      "取消",IDCANCEL,101,92,46,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,30,36,20,20
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,76,38,64,10
+    CONTROL         "允许旁观",IDC_ENABLE_LOOKON,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,76,65,48,10
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,12 @@
+[LangOptions]
+LanguageName=<7B80><4F53><4E2D><6587>
+LanguageID=$0804
+LanguageCodePage=936
+DialogFontName=宋体
+TitleFontName=宋体
+WelcomeFontName=宋体
+CopyrightFontName=宋体
+DialogFontSize=9
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=9

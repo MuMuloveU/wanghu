@@ -1,0 +1,23 @@
+body  { background:#0B55D2; margin:0px; font:9pt 宋体; FONT-SIZE: 9pt;text-decoration: none;
+	SCROLLBAR-FACE-COLOR: #2B73F1;
+	SCROLLBAR-HIGHLIGHT-COLOR: #0650D2;
+	SCROLLBAR-SHADOW-COLOR: #449AE8;
+	SCROLLBAR-3DLIGHT-COLOR: #449AE8;
+	SCROLLBAR-ARROW-COLOR: #02338A;
+	SCROLLBAR-TRACK-COLOR: #0650D2;
+	SCROLLBAR-DARKSHADOW-COLOR: #0650D2;}
+table  { border:0px; }
+td  { font:normal 12px 宋体; }
+img  { vertical-align:bottom; border:0px; }
+a  { font:normal 12px 宋体;　color:#000000; text-decoration: none;}
+a:link {color:#000000;text-decoration: none;}
+a:hover  { color:#000000;}
+.sec_menu  { border-left:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF; overflow:hidden; background:#D4ECF5;text-align: right;}
+.menu_title  { }
+.menu_title span  { position:relative; top:2px; left:8px; color:#0F42A6; font-weight:bold; }
+.menu_title2  { }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#cc0000; font-weight:bold; }
+.Glow /*　标题文字发光效果定义，白字深蓝底 */
+{
+FILTER: Glow(Color=#ffffff, Strength=1) dropshadow(Color=#ffffff, OffX=0, OffY=1,);
+}

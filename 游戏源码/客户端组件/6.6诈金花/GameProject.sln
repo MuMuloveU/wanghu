@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "国际象棋", "游戏服务器\GameServer.vcproj", "{CA071FF5-97BF-42C3-99AF-FE8F8A0F0AF2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "国际象棋", "游戏客户端\GameClient.vcproj", "{F2D70F30-23FC-4973-A798-AED329359B33}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CA071FF5-97BF-42C3-99AF-FE8F8A0F0AF2}.Debug.ActiveCfg = Debug|Win32
+		{CA071FF5-97BF-42C3-99AF-FE8F8A0F0AF2}.Debug.Build.0 = Debug|Win32
+		{CA071FF5-97BF-42C3-99AF-FE8F8A0F0AF2}.Release.ActiveCfg = Release|Win32
+		{CA071FF5-97BF-42C3-99AF-FE8F8A0F0AF2}.Release.Build.0 = Release|Win32
+		{F2D70F30-23FC-4973-A798-AED329359B33}.Debug.ActiveCfg = Debug|Win32
+		{F2D70F30-23FC-4973-A798-AED329359B33}.Debug.Build.0 = Debug|Win32
+		{F2D70F30-23FC-4973-A798-AED329359B33}.Release.ActiveCfg = Release|Win32
+		{F2D70F30-23FC-4973-A798-AED329359B33}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

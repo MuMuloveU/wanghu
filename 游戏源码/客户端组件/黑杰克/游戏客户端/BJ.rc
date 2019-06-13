@@ -1,0 +1,193 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\BJ.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BlackJack.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,6,1,0
+ PRODUCTVERSION 6,6,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "黑杰克游戏客户端"
+            VALUE "FileVersion", "6, 6, 1, 0"
+            VALUE "InternalName", "BlackJack.exe"
+            VALUE "OriginalFilename", "BlackJack.exe"
+            VALUE "ProductName", "BlackJack"
+            VALUE "ProductVersion", "6, 6, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_ARROW_HEAD          BITMAP                  "res\\ARROW_HEAD.bmp"
+IDB_BANKER              BITMAP                  "res\\BANKER.bmp"
+IDB_CARD                BITMAP                  "res\\CARD.bmp"
+IDB_CARD_BACK           BITMAP                  "res\\CARD_BACK.bmp"
+IDB_TITLE               BITMAP                  "res\\TITLE.bmp"
+IDB_GAME_END            BITMAP                  "res\\GAME_END.bmp"
+IDB_BACKGROUD           BITMAP                  "res\\BkGroud.bmp"
+IDB_BT_GIVE_UP          BITMAP                  "res\\BT_GIVE_UP.bmp"
+IDB_BT_BEGIN            BITMAP                  "res\\BT_BEGIN.bmp"
+IDB_BT_DOUBLE           BITMAP                  "res\\BT_DOUBLE.bmp"
+IDB_BT_GET_CARD         BITMAP                  "res\\BT_GET_CARD.bmp"
+IDB_BT_STOP_CARD        BITMAP                  "res\\BT_STOP_CARD.bmp"
+IDB_BT_CUT_CARD         BITMAP                  "res\\BT_CUT_CARD.bmp"
+IDB_BT_ADD_GOLD         BITMAP                  "res\\BT_ADD_GOLD.bmp"
+IDB_CONTROL_BACK_MID    BITMAP                  "res\\CONTROL_BACK_MID.bmp"
+IDB_CONTROL_BACK_LEFT   BITMAP                  "res\\CONTROL_BACK_LEFT.bmp"
+IDB_CONTROL_BACK_RIGHT  BITMAP                  "res\\CONTROL_BACK_RIGHT.bmp"
+IDB_ADDGOLD_MARK        BITMAP                  "res\\ADDGOLD_MARK.bmp"
+IDB_STOP_MARK           BITMAP                  "res\\STOP_MARK.bmp"
+IDB_BRUST_MARK          BITMAP                  "res\\BRUST_MARK.bmp"
+IDB_GETCARD_MARK        BITMAP                  "res\\GETCARD_MARK.bmp"
+IDB_Center              BITMAP                  "res\\Center.bmp"
+IDB_GOLD                BITMAP                  "res\\GOLD.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_WARN               WAVE                    "Res\\GAME_WARN.wav"
+TIME_OUT                WAVE                    "Res\\TIME_OUT.wav"
+HIT_BUTTON              WAVE                    "Res\\HIT_BUTTON.wav"
+ADD_SCORE               WAVE                    "Res\\ADD_SCORE.WAV"
+GAME_END                WAVE                    "Res\\GAME_END.WAV"
+SEND_CARD               WAVE                    "Res\\SEND_CARD.WAV"
+BRUSH_CARD              WAVE                    "Res\\BRUSH_CARD.wav"
+GAME_BEGIN              WAVE                    "Res\\GAME_BEGIN.wav"
+GAME_WIN                WAVE                    "Res\\GAME_WIN.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 BlackJack(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\BJ.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

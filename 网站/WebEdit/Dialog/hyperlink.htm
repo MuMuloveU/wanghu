@@ -1,0 +1,197 @@
+<HTML>
+<HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+
+<style type="text/css">
+body, a, table, div, span, td, th, input, select{font:9pt;font-family: "宋体", Verdana, Arial, Helvetica, sans-serif;}
+body {padding:5px}
+</style>
+
+<Script Language=JavaScript src="dialog.js"></script>
+
+
+<Script Language=JavaScript>
+var sAction = URLParams['action'];
+var sTitle = "插入";
+
+var objWindow;
+
+var oRange;
+var sType;
+var oSel;
+
+var sUrl = "http://";
+var sProtocol = "http://";
+var sTarget = "";
+
+switch (sAction){
+case "other":
+	sUrl = dialogArguments.objLink.Href;
+	sTarget = dialogArguments.objLink.Target;
+	sProtocol = getProtocol(sUrl);
+	objWindow = dialogArguments.opener;
+	break;
+default:
+	oRange = dialogArguments.eWebEditor.document.selection.createRange();
+	sType = dialogArguments.eWebEditor.document.selection.type;
+
+	if (sType == "Control") {
+		oSel = oRange(0).parentNode;
+	}else{
+		oSel = oRange.parentElement();
+	}
+
+	if (oSel.tagName.toUpperCase() == "A"){
+		sTarget = oSel.target;
+		sUrl = oSel.getAttribute("href",2);
+		sProtocol = getProtocol(sUrl);
+	}
+	objWindow = dialogArguments;
+	break;
+}
+
+
+
+
+// 从地址取协议
+function getProtocol(url){
+	var re=/(.+:\/*)(.*)/gi;
+	return url.replace(re,"$1");
+}
+
+// 改变协议
+function changeProtocol(index){
+	sProtocol=d_protocol.options[index].value;
+	sUrl = d_url.value;
+	var re = /(.+:\/*)/gi;
+	sUrl = sUrl.replace(re, "");
+	d_url.value = sProtocol + sUrl;
+}
+
+
+// 初始值
+function InitDocument(){
+	SearchSelectValue(d_protocol, sProtocol.toLowerCase());
+	SearchSelectValue(d_target, sTarget.toLowerCase());
+	getAnchors();
+	d_url.value = sUrl;
+}
+
+// 取所有的锚
+function getAnchors() {
+	d_anchor.options.length = 1;
+	var allLinks = objWindow.eWebEditor.document.body.getElementsByTagName("A");
+	for (i=0; i < allLinks.length; i++) {
+		if (allLinks[i].href.toUpperCase() == "") {
+			d_anchor.options[d_anchor.options.length] = new Option(allLinks[i].name,"#"+allLinks[i].name);
+		}
+	}
+}
+
+</Script>
+
+
+
+<title>超级链接属性</title>
+
+<SCRIPT event=onclick for=Ok language=JavaScript>
+	sUrl = d_url.value;
+	sProtocol = d_protocol.options[d_protocol.selectedIndex].value;
+	sTarget = d_target.options[d_target.selectedIndex].value;
+
+	if (sUrl != ""){
+		switch (sAction){
+		case "other":
+			var arr = new Array();
+			arr[0] = sUrl;
+			arr[1] = sTarget;
+			window.returnValue = arr;
+			break;
+		default:
+			oRange.execCommand("CreateLink",false,sUrl);
+
+			oRange = dialogArguments.eWebEditor.document.selection.createRange();
+			sType = dialogArguments.eWebEditor.document.selection.type;
+
+			if (sType == "Control") {
+				oSel = oRange(0).parentNode;
+			}else{
+				oSel = oRange.parentElement();
+			}
+
+			if (sTarget != ""){
+				oSel.target = sTarget;
+			}else{
+				oSel.removeAttribute("target");
+			}
+			window.returnValue = null;
+			break;
+		}
+	} else {
+		alert("链接地址不能为空");
+		d_url.focus();
+		return;
+	}
+	window.close();
+</SCRIPT>
+
+</HEAD>
+
+<body bgcolor=menu onload="InitDocument()">
+
+<table border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td>
+	<fieldset>
+	<legend>超级链接信息</legend>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td noWrap>链接类型:</td>
+		<td width=5></td>
+		<td><select id=d_protocol style="width:72px" onchange="changeProtocol(this.selectedIndex)">
+				<option value=''>其它</option>
+				<option value='file://'>file:</option>
+				<option value='ftp://'>ftp:</option>
+				<option value='gopher://'>gopher:</option>
+				<option value='http://'>http:</option>
+				<option value='https://'>https:</option>
+				<option value='mailto:'>mailto:</option>
+				<option value='news:'>news:</option>
+				<option value='telnet:'>telnet:</option>
+				<option value='wais:'>wais:</option>
+				</select></td>
+		<td width=40></td>
+		<td noWrap>链接目标:</td>
+		<td width=5></td>
+		<td><select id=d_target style="width:72px"><option value=''>默认(无)</option><option value='_self'>相同框架</option><option value='_top'>整页</option><option value='_blank'>新建窗口</option><option value='_parent'>父框架</option></select></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>链接地址:</td>
+		<td width=5></td>
+		<td colspan=5><input type=text id=d_url size=38 value="" style="width:243px"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td>书签链接:</td>
+		<td width=5></td>
+		<td colspan=5><select id=d_anchor onchange="d_url.value=this.options[this.selectedIndex].value"><option value=''>默认(无)</option></select></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td align=right><input type=submit value='  确定  ' id=Ok>&nbsp;&nbsp;<input type=button value='  取消  ' onclick="window.close();"></td></tr>
+</table>
+
+</BODY>
+</HTML>

@@ -1,0 +1,90 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (e4be13fa).
+//
+// ImageOle.tlh
+//
+// C++ source equivalent of Win32 type library e:\\Program files\\tencent\\qq\\ImageOle.dll
+// compiler-generated file created 08/29/08 at 09:48:47 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace ImageOleLib {
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ GifAnimator;
+struct __declspec(uuid("0c1cf2df-05a3-4fef-8cd4-f5cfc4355a16"))
+/* dual interface */ IGifAnimator;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IGifAnimator, __uuidof(IGifAnimator));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("06ada938-0fb0-4bc0-b19b-0a38ab17f182"))
+GifAnimator;
+    // [ default ] interface IGifAnimator
+
+struct __declspec(uuid("0c1cf2df-05a3-4fef-8cd4-f5cfc4355a16"))
+IGifAnimator : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT LoadFromFile (
+        _bstr_t FileName );
+    VARIANT_BOOL TriggerFrameChange ( );
+    _bstr_t GetFilePath ( );
+    HRESULT ShowText (
+        _bstr_t Text );
+    HRESULT GetImageSize (
+        int * pnWidth,
+        int * pnHeight );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_LoadFromFile (
+        BSTR FileName ) = 0;
+    virtual HRESULT __stdcall raw_TriggerFrameChange (
+        VARIANT_BOOL * pbChanged ) = 0;
+    virtual HRESULT __stdcall raw_GetFilePath (
+        BSTR * pFilePath ) = 0;
+    virtual HRESULT __stdcall raw_ShowText (
+        BSTR Text ) = 0;
+    virtual HRESULT __stdcall raw_GetImageSize (
+        int * pnWidth,
+        int * pnHeight ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_ImageOleLib =
+    {0x710993a2,0x4f87,0x41d7,{0xb6,0xfe,0xf5,0xa2,0x03,0x68,0x46,0x5f}};
+extern "C" const GUID __declspec(selectany) CLSID_GifAnimator =
+    {0x06ada938,0x0fb0,0x4bc0,{0xb1,0x9b,0x0a,0x38,0xab,0x17,0xf1,0x82}};
+extern "C" const GUID __declspec(selectany) IID_IGifAnimator =
+    {0x0c1cf2df,0x05a3,0x4fef,{0x8c,0xd4,0xf5,0xcf,0xc4,0x35,0x5a,0x16}};
+
+//
+// Wrapper method implementations
+//
+
+#include "ImageOle.tli"
+
+} // namespace ImageOleLib
+
+#pragma pack(pop)

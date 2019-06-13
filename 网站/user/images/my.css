@@ -1,0 +1,355 @@
+﻿*{margin:0;}
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+ul{display:block; list-style:none;}
+p{margin:5px 0;}
+h4{font-size:14px;}
+table{border-collapse:collapse;}
+.clear{ clear:both;}
+a{color:#06C; text-decoration:underline;}
+a:hover{ color:#F63;}
+img{ border-style:none;}
+hr
+{
+	border-style:none;
+	border-bottom: solid 1px #cccccc;
+}
+
+
+/*首页*/
+.index
+{
+	background-image:url(../images/index.jpg);
+	width:559px;
+	height:242px;
+	margin:30px auto;
+	border-style:none;
+}
+
+
+/*个人中心*/
+.my{ margin:15px 0; color:#4B4B4B;}
+.my th{ text-align:left; font-weight:100;}
+.my td{padding:5px 0;}
+
+
+.titer{ font-size:18px; margin-bottom:12px;}
+
+
+/*推广员管理*/
+.main-head {
+	width: 100%;
+	padding: 10px;
+	color:#FF0000;
+}
+.main-head a{
+    color:#FF0000;
+}
+.main-head a:hover{
+    color:#000000;
+}
+.main {
+	width: 100%;
+	padding:5px;
+}
+
+.stat {
+    width: 100%;
+	padding: 7px;
+}
+
+.main a{
+    color:white;
+}
+.center{
+    text-align:center;
+    width:100%;
+    padding:5px;
+}
+.btn{
+    width:62px;
+    height:20px;
+}
+.btn-down{
+    width:62px;
+    height:20px;
+    font-size:9pt;    
+}
+.button{
+    text-align:right;
+    padding:5px;
+    padding-right:30px;
+}
+.page-foot{
+	background-color:#1C5E55;
+	padding:5px;
+	text-align:right;
+	padding-right:30px;
+}
+.page-head
+{
+	padding:5px;
+}
+
+/*兑换中心*/
+
+.main
+{
+	width:100%;
+	margin:10px 0px;
+}
+
+.main table
+{
+	width:100%;	
+	background-color:#A2D0EC;
+	
+	
+}
+.main th
+{
+	background:#EFF7FE;
+	text-align:right;
+	padding:5px;
+	padding-right:10px;
+	
+}
+.main td
+{
+	padding:5px;
+	background-color:#FFFFFF;
+}
+
+.grade{}
+
+.grade a
+{
+	color:#2684BB;
+}
+.grade li
+{
+	float:left;
+	padding:5px;
+	padding-right:10px;
+}
+.btn
+{
+	border:1px solid #A2D0EC;
+	background:#EFF7FE;
+	margin-top:20px;
+	width:100%;
+	padding:5px;
+	text-align:center;
+}
+
+.btn_submit
+{
+	width:80px;
+	border:double 3px #3A9BF3;
+	background-color:#FFFFFF;
+	height:27px;
+	background-color:#3A9BF3;
+	color:#FFFFFF;
+}
+.table_intro
+{
+	padding-top :10px;
+	padding-bottom:5px;
+	padding-left:30px;
+}
+
+.table_intro li
+{
+	list-style-type:disc;
+	
+}
+
+.table_intro a
+{
+	color:#FF8000;
+	text-decoration:none;
+}
+
+.table_intro a:hover
+{
+	color:#FF8000;
+	text-decoration:underline;
+}
+
+.gridview
+{
+	border:solid 1px #A2D0EC;	
+	text-align:center;
+	width:100%;
+}
+
+.gridview a
+{
+	color:#FF8000;
+	text-decoration:none;
+}
+.gridview tr
+{
+	height:25px;
+}
+
+.gridview a:hover
+{
+	color:#FF8000;
+	text-decoration:underline;
+}
+.gridview_header
+{
+	background-color:#CDE6FC;
+	height:22px;
+	color:#222222;
+	font-weight:normal;
+	border:solid 1px #A2D0EC;
+}
+
+.gridview_row
+{
+	background-color:#EFF7FE;
+	padding:5px;
+}
+
+.gridview_alternatingrow
+{
+	background-color:#FFFFFF;
+	padding:5px;
+}
+.gridview_footer
+{
+	padding:5px;
+	text-align:right;
+	padding-right:10px;
+	
+}
+
+.gridview caption
+{
+	font-size:11pt;
+	font-weight:bold;
+	color:#333333;
+	text-align:left;
+	padding-left:10px;
+	line-height:25px;
+	letter-spacing:1pt;
+}
+
+.title1
+{
+	padding-left: 30px; 
+	font-size: 14px; 
+	padding-bottom: 3px; 
+	padding-top: 3px;
+	font-weight:bold;
+	color:#555555;
+}
+
+.title
+{
+}
+.title2
+{
+	width:97%;
+	height:25px;
+	font-weight:bold;
+	color:#555555;
+	line-height:25px;	
+}
+
+
+
+
+/*兑换中心*/
+
+.exchange
+{
+	width:500px;
+	margin:10px auto;
+}
+
+.exchange table
+{
+	width:512px;
+	
+	background-color:#A2D0EC;
+	
+	
+}
+.exchange th
+{
+	background:#EFF7FE;
+	text-align:right;
+	padding:5px;
+	padding-right:10px;
+	
+}
+.exchange td
+{
+	padding:5px;
+	background-color:#FFFFFF;
+}
+
+.grade{}
+.grade li
+{
+	float:left;
+	padding:5px;
+	padding-right:10px;
+}
+.exchange_intro
+{
+	padding-top :10px;
+	padding-bottom:5px;
+	padding-left:30px;
+}
+
+.exchange_intro li
+{
+	list-style-type:disc;
+	
+}
+
+/**用户充值**/
+.condition
+{
+	display:block;
+	padding:5px;
+	border:solid 1px #A2D0EC;
+	margin-bottom:8px;
+	line-height:30px;
+}
+
+.clear_btn
+{
+	padding:5px;
+
+	}
+	
+.gridview1
+{
+	text-align:center;
+	border:solid 1px #9CBDE6;
+	width:100%;
+	color:#444444;
+}
+
+.gridview1 td,.gridview th
+{
+	padding-left:5px;
+	border:solid 1px #9CBDE6;
+	height:35px;
+}
+
+.gridview1 th
+{
+	background-color:#E7F3FF;
+	font-weight:normal;
+	padding:5px;
+}
+
+.rowid
+{
+	color:#FF0000;
+}

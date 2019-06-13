@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "”Œœ∑π„≥° ", "GamePlaza.vcproj", "{2A4255D8-9D65-4B56-9775-79ECF6AF3040}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Admin_Release = Admin_Release
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Admin_Release.ActiveCfg = Admin_Release|Win32
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Admin_Release.Build.0 = Admin_Release|Win32
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Debug.ActiveCfg = Debug|Win32
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Debug.Build.0 = Debug|Win32
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Release.ActiveCfg = Release|Win32
+		{2A4255D8-9D65-4B56-9775-79ECF6AF3040}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

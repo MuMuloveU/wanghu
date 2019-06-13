@@ -1,0 +1,164 @@
+<HTML>
+<HEAD>
+<TITLE>书签管理</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+body, a, table, div, span, td, th, input, select{font-size:9pt;font-family: "宋体", Verdana, Arial, Helvetica, sans-serif;}
+body {padding:5px}
+</style>
+<Script Language=JavaScript src="dialog.js"></script>
+
+<script language="JavaScript">
+// 初始选定对象
+var oRange;
+var sType;
+var oSel;
+
+var sName="";
+
+oRange = dialogArguments.eWebEditor.document.selection.createRange();
+sType = dialogArguments.eWebEditor.document.selection.type;
+if (sType == "Control") {
+	oSel = oRange(0).parentNode;
+}else{
+	oSel = oRange.parentElement();
+}
+
+if (oSel.tagName.toUpperCase() == "A"){
+	if (oSel.href.toUpperCase() == ""){
+		sName = oSel.name;
+		moveRange(oSel);
+	}
+}
+
+
+
+// 初始值
+function InitDocument(){
+	d_anchor.value = sName;
+	getAnchors();
+}
+
+// 取所有的锚
+function getAnchors() {
+	d_allanchor.options.length = 0;
+	var allLinks = dialogArguments.eWebEditor.document.body.getElementsByTagName("A");
+	for (i=0; i < allLinks.length; i++) {
+		if (allLinks[i].href.toUpperCase() == "") {
+			d_allanchor.options[d_allanchor.options.length] = new Option(allLinks[i].name, allLinks[i].name);
+		}
+	}
+}
+
+// 取指定名称的锚对象
+function getAnchorObj(str) {
+	var allLinks = dialogArguments.eWebEditor.document.body.getElementsByTagName("A");
+	for (i=0; i < allLinks.length; i++) {
+		if (allLinks[i].href.toUpperCase() == "") {
+			if (allLinks[i].name==str){
+				return allLinks[i];
+			}
+		}
+	}
+	return null;
+}
+
+// 确定
+function OK(){
+	var sName = BaseTrim(d_anchor.value);
+	if (sName == ""){
+		BaseAlert(d_anchor, "请输入书签名称！");
+		return;
+	}
+
+	oRange = dialogArguments.eWebEditor.document.selection.createRange();
+	sType = dialogArguments.eWebEditor.document.selection.type;
+	if (sType == "Control") {
+		oSel = oRange(0).parentNode;
+	}else{
+		oSel = oRange.parentElement();
+	}
+
+	var bModify = false;
+	if (oSel.tagName.toUpperCase() == "A"){
+		if (oSel.href.toUpperCase() == ""){
+			oSel.name = sName;
+			bModify = true;
+		}
+	}
+	if (!bModify){
+		var html="";
+		if (sType == "Control") {
+			oRange(0).outerHTML = "<a id=eWebEditor_TempElement_Anchor name=" + sName + ">" + oRange(0).outerHTML + "</a>";
+		}else{
+			oRange.pasteHTML("<a id=eWebEditor_TempElement_Anchor name=" + sName + ">" + oRange.htmlText + "</a>");
+		}
+
+		var oTempElement = dialogArguments.eWebEditor.document.getElementById("eWebEditor_TempElement_Anchor");
+
+		if (dialogArguments.borderShown != "0") {
+			oTempElement.runtimeStyle.borderBottom = "1px dashed #000000";
+		}
+
+		oTempElement.removeAttribute("id");
+	}
+	
+	window.returnValue = null;
+	window.close();
+}
+
+// 转到
+function doMove(){
+	var nIndex = d_allanchor.selectedIndex;
+	if (nIndex<0) {
+		alert("请先选择一个书签！");
+		return;
+	}
+	var sel = getAnchorObj(d_allanchor.options[nIndex].value);
+	if (sel){
+		moveRange(sel);
+	}
+}
+
+// 清除
+function doDel(){
+	var nIndex = d_allanchor.selectedIndex;
+	if (nIndex<0) {
+		alert("请先选择一个书签！");
+		return;
+	}
+	var sel = getAnchorObj(d_allanchor.options[nIndex].value);
+	if (sel){
+		sel.outerHTML = sel.innerHTML;
+		d_allanchor.options[nIndex] = null;
+	}
+}
+
+// 选定指定元素的选区
+function moveRange(sel){
+	var rng = dialogArguments.eWebEditor.document.body.createTextRange();
+	rng.moveToElementText(sel);
+	rng.select();
+}
+</script>
+
+</HEAD>
+<BODY bgcolor="menu" onload="InitDocument()">
+<TABLE CELLSPACING="0" cellpadding="5" border="0" align=center>
+<TR valign="top">
+	<TD align="left" nowrap>
+		书签名称:<br>
+		<INPUT TYPE=TEXT SIZE=20 id="d_anchor" style="width:150px;"><br>
+		本页其它书签:<br>
+		<select id="d_allanchor" size=8 style="width:150px;" onchange="d_anchor.value=this.options[this.selectedIndex].value;"></select>
+	</td>
+	<td>
+		<input type=button style="width:80px;margin-top:15px" name="btnOK" onClick="OK()" value="确定"><br>
+		<input type=button style="width:80px;margin-top:5px" name="btnCancel" onClick="window.close()" value="取消"><br>
+		<input type=button style="width:80px;margin-top:60px" name="btnMove" onClick="doMove()" value="转到"><br>
+		<input type=button style="width:80px;margin-top:5px" name="btnDel" onClick="doDel()" value="清除"><br>
+	</td>
+</tr>
+</table>
+</BODY>
+</HTML>

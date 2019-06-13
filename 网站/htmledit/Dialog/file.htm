@@ -1,0 +1,255 @@
+<HTML>
+<HEAD>
+<TITLE>文件属性</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+body, a, table, div, span, td, th, input, select{font:9pt;font-family: "宋体", Verdana, Arial, Helvetica, sans-serif;}
+body {padding:5px}
+</style>
+
+<script language="JavaScript" src="dialog.js"></script>
+
+<script language="JavaScript">
+
+// 文件来源单选点击事件
+function RadioClick(what){
+	if (what=="url"){
+		d_checkfromfile.checked=false;
+		d_fromurl.disabled=false;
+		d_checkfromurl.checked=true;
+		d_file.myform.uploadfile.disabled=true;
+	}else{
+		d_checkfromurl.checked=false;
+		d_file.myform.uploadfile.disabled=false;
+		d_checkfromfile.checked=true;
+		d_fromurl.disabled=true;
+	}
+}
+
+// 上传帧调入完成时执行
+function UploadLoaded(){
+	// 初始radio
+	RadioClick('file');
+}
+
+// 上传错误
+function UploadError(sErrDesc){
+	AbleItems();
+	RadioClick('file');
+	divProcessing.style.display="none";
+	try {
+		BaseAlert(d_file.myform.uploadfile,sErrDesc);
+	}
+	catch(e){}
+}
+
+// 文件上传完成时执行,带入上传文件名
+function UploadSaved(sPathFileName){
+	d_fromurl.value = sPathFileName;
+	ReturnValue();
+}
+
+// 本窗口返回值
+function ReturnValue(){
+	var url = d_fromurl.value;
+	var sFilePic = getFilePic(url);
+	var sPicSrc = relativePath2setPath("sysimage/file/"+sFilePic);
+	dialogArguments.insertHTML("<img id=eWebEditor_TempElement_Img border=0 src='"+sPicSrc+"'><a id=eWebEditor_TempElement_Href href='"+url+"' target=_blank>"+d_filename.value+"</a>");
+
+	var oTempElement = dialogArguments.eWebEditor.document.getElementById("eWebEditor_TempElement_Img");
+	oTempElement.src = sPicSrc;
+	oTempElement.removeAttribute("id");
+	
+	oTempElement = dialogArguments.eWebEditor.document.getElementById("eWebEditor_TempElement_Href");
+	oTempElement.href = url;
+	oTempElement.removeAttribute("id");
+	
+	window.returnValue = null;
+	window.close();
+}
+
+// 点确定时执行
+function ok(){
+	if (d_checkfromurl.checked){
+		// 取文件名
+		GetFileName(d_fromurl.value, "/");
+		// 返回值
+		ReturnValue();
+	}else{
+		// 上传文件判断
+		if (!d_file.CheckUploadForm()) return false;
+		// 取文件名
+		GetFileName(d_file.myform.uploadfile.value, "\\");
+		// 使各输入框无效
+		DisableItems();
+		// 显示正在上传文件
+		divProcessing.style.display="";
+		// 上传表单提交
+		d_file.myform.submit();
+	}
+}
+
+// 使所有输入框无效
+function DisableItems(){
+	d_checkfromfile.disabled=true;
+	d_checkfromurl.disabled=true;
+	d_fromurl.disabled=true;
+	Ok.disabled=true;
+}
+
+// 使所有输入框有效
+function AbleItems(){
+	d_checkfromfile.disabled=false;
+	d_checkfromurl.disabled=false;
+	d_fromurl.disabled=false;
+	Ok.disabled=false;
+}
+
+// 按文件扩展名取图，并产生链接
+function getFilePic(url){
+	var sExt;
+	sExt=url.substr(url.lastIndexOf(".")+1);
+	sExt=sExt.toUpperCase();
+	var sPicName;
+	switch(sExt){
+	case "TXT":
+		sPicName = "txt.gif";
+		break;
+	case "CHM":
+	case "HLP":
+		sPicName = "hlp.gif";
+		break;
+	case "DOC":
+		sPicName = "doc.gif";
+		break;
+	case "PDF":
+		sPicName = "pdf.gif";
+		break;
+	case "MDB":
+		sPicName = "mdb.gif";
+		break;
+	case "GIF":
+		sPicName = "gif.gif";
+		break;
+	case "JPG":
+		sPicName = "jpg.gif";
+		break;
+	case "BMP":
+		sPicName = "bmp.gif";
+		break;
+	case "PNG":
+		sPicName = "pic.gif";
+		break;
+	case "ASP":
+	case "JSP":
+	case "JS":
+	case "PHP":
+	case "PHP3":
+	case "ASPX":
+		sPicName = "code.gif";
+		break;
+	case "HTM":
+	case "HTML":
+	case "SHTML":
+		sPicName = "htm.gif";
+		break;
+	case "ZIP":
+		sPicName = "zip.gif";
+		break;
+	case "RAR":
+		sPicName = "rar.gif";
+		break;
+	case "EXE":
+		sPicName = "exe.gif";
+		break;
+	case "AVI":
+		sPicName = "avi.gif";
+		break;
+	case "MPG":
+	case "MPEG":
+	case "ASF":
+		sPicName = "mp.gif";
+		break;
+	case "RA":
+	case "RM":
+		sPicName = "rm.gif";
+		break;
+	case "MP3":
+		sPicName = "mp3.gif";
+		break;
+	case "MID":
+	case "MIDI":
+		sPicName = "mid.gif";
+		break;
+	case "WAV":
+		sPicName = "audio.gif";
+		break;
+	case "XLS":
+		sPicName = "xls.gif";
+		break;
+	case "PPT":
+	case "PPS":
+		sPicName = "ppt.gif";
+		break;
+	case "SWF":
+		sPicName = "swf.gif";
+		break;
+	default:
+		sPicName = "unknow.gif";
+		break;
+	}
+	return sPicName;
+
+}
+
+// 取文件名到隐藏的输入框
+function GetFileName(url, opt){
+	d_filename.value=url.substr(url.lastIndexOf(opt)+1);
+}
+
+</script>
+
+
+<BODY bgColor=menu>
+
+<table border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td>
+	<fieldset>
+	<legend>文件来源</legend>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td width=54 align=right onclick="RadioClick('file')"><input type=radio id="d_checkfromfile" value="1" onclick="RadioClick('file')">上传:</td>
+		<td width=5></td>
+		<td colspan=5>
+		<Script Language=JavaScript>
+		document.write('<iframe id=d_file frameborder=0 src="../upload.asp?type=file&style=' + config.StyleName + '" width="100%" height="22" scrolling=no></iframe>');
+		</Script>
+		</td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	<tr>
+		<td width=7></td>
+		<td width=54 align=right onclick="RadioClick('url')"><input type=radio id="d_checkfromurl" value="1" onclick="RadioClick('url')">网络:</td>
+		<td width=5></td>
+		<td colspan=5><input type=text id="d_fromurl" style="width:243px" size=30 value="http://"></td>
+		<td width=7></td>
+	</tr>
+	<tr><td colspan=9 height=5></td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td align=right><input type=submit value='  确定  ' id=Ok onclick="ok()">&nbsp;&nbsp;<input type=button value='  取消  ' onclick="window.close();"></td></tr>
+</table>
+
+<div id=divProcessing style="width:200px;height:30px;position:absolute;left:70px;top:30px;display:none">
+<table border=0 cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%" height="100%"><tr><td bgcolor=#3A6EA5><marquee align="middle" behavior="alternate" scrollamount="5"><font color=#FFFFFF>...文件上传中...请等待...</font></marquee></td></tr></table>
+</div>
+<input type=hidden id=d_filename value="">
+</body>
+</html>

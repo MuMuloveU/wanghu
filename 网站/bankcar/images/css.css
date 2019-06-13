@@ -1,0 +1,21 @@
+.blue_link:link {
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.blue_link:visited {
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.blue_link:hover {
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #b9b9b9;
+	text-decoration: underline;
+}

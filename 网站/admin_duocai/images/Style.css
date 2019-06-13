@@ -1,0 +1,192 @@
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #384780; TEXT-DECORATION: underline
+}
+A.showmenu {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A.showmenu:hover {
+	COLOR: #ff8e20; TEXT-DECORATION: underline
+}
+A.showtitle {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.showtitle:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #dde4f6; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #fcfdfe; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #6679bd; SCROLLBAR-ARROW-COLOR: #5f70b5; SCROLLBAR-TRACK-COLOR: #f0f3fd; FONT-FAMILY: 宋体; SCROLLBAR-DARKSHADOW-COLOR: #aabdea; BACKGROUND-COLOR: #bacaef
+}
+TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; LINE-HEIGHT: 150%; FONT-FAMILY: 宋体
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif,宋体; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none
+}
+OPTION {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif,宋体; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif,宋体; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif,宋体; BORDER-RIGHT-WIDTH: 1px
+}
+SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif,宋体; POSITION: static
+}
+TD.TableRow1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 25px; BACKGROUND-COLOR: #f9fbfd
+}
+TD.TableRow2 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 25px; BACKGROUND-COLOR: #f5f8fb
+}
+TD.TableTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; HEIGHT: 25px; BACKGROUND-COLOR: #6c7fc1
+}
+.TableBorder {
+	BORDER-RIGHT: #384780 1px solid; BORDER-TOP: #384780 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: #384780 1px solid; WIDTH: 96%; LINE-HEIGHT: normal; BORDER-BOTTOM: #384780 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff; FONT-VARIANT: normal
+}
+.TableBorder1 {
+	BORDER-RIGHT: #384780 1px solid; BORDER-TOP: #384780 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: #384780 1px solid; WIDTH: 65%; LINE-HEIGHT: normal; BORDER-BOTTOM: #384780 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff; FONT-VARIANT: normal
+}
+.TableBorder2 {
+	BACKGROUND-COLOR: #ffffff
+}
+TD.BodyTitle {
+	BACKGROUND-IMAGE: url(images/admin_bg_2.gif)
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/admin_bg_1.jpg); COLOR: white; HEIGHT: 26px; BACKGROUND-COLOR: #6273b8
+}
+TD.TableTitle1 {
+	COLOR: #ffffff; BACKGROUND-COLOR: #6c7fc1
+}
+TD.TableTitle2 {
+	BACKGROUND-COLOR: #e4e8ef
+}
+TD.TableBody1 {
+	LINE-HEIGHT: normal; BACKGROUND-COLOR: #ffffff
+}
+TD.TableBody2 {
+	LINE-HEIGHT: normal; BACKGROUND-COLOR: #e4e8ef
+}
+.tableBorder5 {
+	BORDER-RIGHT: #6c7fc1 1px solid; BORDER-TOP: #6c7fc1 1px solid; BORDER-LEFT: #6c7fc1 1px solid; BORDER-BOTTOM: #6c7fc1 1px solid; BACKGROUND-COLOR: #d6e0ef
+}
+.normalTextSmall {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.magicframe {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.PageInput {
+	BORDER-RIGHT: #d6e0ef 1px solid; BORDER-TOP: #d6e0ef 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #d6e0ef 1px solid; BORDER-BOTTOM: #d6e0ef 1px solid; FONT-FAMILY: Arial; HEIGHT: 18px; BACKGROUND-COLOR: #fafafa
+}
+.RomNumber {
+	BORDER-RIGHT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; OVERFLOW: hidden; CURSOR: default; COLOR: highlighttext; FONT-FAMILY: tahoma; HEIGHT: 365px; BACKGROUND-COLOR: highlight; TEXT-ALIGN: right
+}
+.txtmain {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: 0px; WIDTH: 92%; COLOR: highlight; FONT-FAMILY: tahoma; HEIGHT: 365px
+}
+.Button {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 19px; BACKGROUND-COLOR: #eeeeee
+}
+.Copyright {
+	PADDING-RIGHT: 1px; BORDER-TOP: #384780 1px dashed; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 11px verdana,arial,helvetica,sans-serif; COLOR: #2f3c6c; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.DottedLine {
+	BORDER-BOTTOM: #384780 1px dotted
+}
+.style1 {
+	COLOR: #ff0000
+}
+.style2 {
+	COLOR: #0000ff
+}
+.style3 {
+	COLOR: #009900
+}
+.quote {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.HtmlCode {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #fdfddf; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; FONT-STYLE: oblique; FONT-FAMILY: Tahoma
+}
+.menuskin {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(images/menubg.gif); VISIBILITY: hidden; PADDING-BOTTOM: 1px; MARGIN: 2px; BORDER-LEFT: #666666 1px solid; LINE-HEIGHT: 14pt; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; POSITION: absolute; menuitems: 1px
+}
+mouseoverstyle {
+	BORDER-RIGHT: #0b008b 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #0b008b 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #0b008b 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #0b008b 1px solid; BACKGROUND-COLOR: #ffeec2
+}
+.menuskin A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 30px
+}
+#TableTitleLink A:link {
+	COLOR: #000000
+}
+#TableTitleLink A:visited {
+	COLOR: #000000
+}
+.text_t {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+	width: 200px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: outset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: outset;
+	border-top-color: #D2D2D2;
+	border-right-color: #808080;
+	border-bottom-color: #808080;
+	border-left-color: #D2D2D2;
+}
+.text_t1 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+	width: 100px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: outset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: outset;
+	border-top-color: #D2D2D2;
+	border-right-color: #808080;
+	border-bottom-color: #808080;
+	border-left-color: #D2D2D2;
+}
+.text_td {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+	width: 30px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: outset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: outset;
+	border-top-color: #D2D2D2;
+	border-right-color: #808080;
+	border-bottom-color: #808080;
+	border-left-color: #D2D2D2;
+}

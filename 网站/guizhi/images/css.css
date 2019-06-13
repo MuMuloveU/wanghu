@@ -1,0 +1,32 @@
+.hui_hang {
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: lighter;
+	color: #333333;
+	
+}
+.hui {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #666666;
+	text-decoration: none;
+}
+.bj {
+	background-image: url(d_bj.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.xian {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-top-color: #8f8f8f;
+	border-right-color: #8f8f8f;
+	border-bottom-color: #8f8f8f;
+	border-left-color: #8f8f8f;
+}
